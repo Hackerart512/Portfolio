@@ -3,19 +3,19 @@ import React from 'react'
 const Service = () => {
     return (
         <>
-            <section className="services py-10">
+            <section className="services pt-10 md:pb-10">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
                             <span className="font-Syne fw-bold text-[#ff9330]">Service</span>
 
-                            <h3 className="hero-title font-Syne fw-bold position-relative mb-0 ">
+                            <h3 className="font-Syne fw-bold position-relative mb-0 ">
                                 My specialties
                             </h3>
 
                         </div>
                         <div className="col-lg-6">
-                            <p className="text-[20px] mt-3 font-Poppins">Synergistically seize front-end methods of empowerment without extensive core competencies. Progressively repurpose alternative platforms</p>
+                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Synergistically seize front-end methods of empowerment without extensive core competencies. Progressively repurpose alternative platforms</p>
                         </div>
                     </div>
 
@@ -108,7 +108,7 @@ const Service = () => {
 
                                 <div className="col-lg-12">
 
-                                    <div className="bg-black rounded-md p-4 mb-3 h-100 flex justify-between flex-col flex-wrap">
+                                    <div className="bg-black rounded-md p-4 md:mb-3 h-100 flex justify-between flex-col flex-wrap">
 
                                         <div class="text-[#ff9330] ">
                                             <span className="animate-arrow-up pl-2 float-right">
@@ -122,9 +122,9 @@ const Service = () => {
                                         <div className="">
 
                                             <span className="font-Syne font-bold text-[#ff9330]">Say Hello!</span>
-                                            <div className="hero-title font-Syne font-bold relative mb-0 text-white text-[1.5rem]">
+                                            <div className="hero-title font-Syne font-bold relative mb-0 text-white text-[17px] md:text-[1.5rem]">
 
-                                                <p className="font-Poppins">Vickyprajapat@gmail.com</p>
+                                                <p className="font-Poppins pb-0 mb-0">pavanprajapat241@gmail.com</p>
                                             </div>
                                         </div>
                                     </div>

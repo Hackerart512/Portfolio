@@ -19,14 +19,14 @@ const Hero = () => {
                                     Hello, I'm															<img className="ml-2" decoding="async" src="https://shthemes.net/demosd/perez/wp-content/uploads/2024/07/victory.png" alt="" />
                                 </span>
 
-                                <h1 className="hero-title font-Syne fw-bold position-relative mb-0 " style={{ lineHeight: "108px" }}>
-                                    Vicky <br />Prajapat
+                                <h1 className="hero-title font-Syne fw-bold position-relative mb-0  mt-3 md:mt-0" >
+                                    Pavan <br />Prajapat
                                 </h1>
 
-                                <p className="font-Syne fw-bold text-[20px] mt-3">Full Stack Developer | Based on Development</p>
+                                <p className="font-Syne fw-bold text-[15px] md:text-[20px] mt-3">Full Stack Developer | Based on Development</p>
 
                                 <div className="hero-button-group mt-2">
-                                    <Link to="/" className="text-white bg-black inline-block rounded-md px-4 py-3 contact-link  hover:bg-[transparent] ">
+                                    <Link to="/" className="text-white bg-black inline-block rounded-md contact-link  px-4  py-3 sm:bg-blue-500">
                                         <div className="font-bold flex items-center">
                                             Let's Talk
                                             <span className="animate-arrow-up pl-2">
@@ -38,7 +38,7 @@ const Hero = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to="/" className="text-black bg-[trabsparent]  inline-block rounded-md px-4 py-3 contact-link ml-3 border-1 border-black">
+                                    <Link to="/" className="text-black bg-[trabsparent]  inline-block rounded-md px-4 py-3 contact-link mt-2 md:mt-0 md:ml-3 border-1 border-black">
                                         <div className="font-bold flex items-center  rounded-sm ">
                                             My Work
                                             <span className="animate-arrow-up pl-2">
@@ -52,16 +52,22 @@ const Hero = () => {
 
                                 </div>
 
-                                <div className="hero-network my-5 flex items-center ">
-                                    <span className="client-couter font-Syne fw-bold text-[30px] ">
-                                        1.2k+
-                                    </span>
-                                    <span className="mx-3">Worldwide client</span>
-                                    <span className="mx-8">
+                                <div className="hero-network my-3 md:my-5 flex items-start flex-col md:flex-row md:items-center">
+
+                                    <div className='flex items-center'>
+                                        <span className="client-couter font-Syne fw-bold text-[30px] ">
+                                            1.2k+
+                                        </span>
+
+                                        <span className="md:mx-3">Worldwide client</span>
+                                        <span className="mx-8">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="2" height="14" viewBox="0 0 2 14" fill="none">
                                             <path d="M1 0L1 14" stroke="#080808" stroke-opacity="0.4"></path>
                                         </svg>
                                     </span>
+                                    </div>
+
+
                                     <div className="social-links">
                                         <ul className="mb-0 gap-3 d-flex flex-wrap align-items-center list-unstyled">
                                             <li>
@@ -82,6 +88,8 @@ const Hero = () => {
                                             </li>
                                         </ul>
                                     </div>
+
+
                                 </div>
                             </div>
                         </div>

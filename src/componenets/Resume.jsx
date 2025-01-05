@@ -16,7 +16,7 @@ const Resume = () => {
                         <div className="col-lg-5">
                             <span className="font-Syne fw-bold text-[#ff9330]">Resume</span>
 
-                            <h3 className="hero-title font-Syne fw-bold position-relative mb-0 ">
+                            <h3 className="font-Syne fw-bold position-relative mb-0 ">
                                 All over my details find here...
                             </h3>
 
@@ -85,52 +85,52 @@ const Resume = () => {
 
                                 <div>
                                     <h4 className="font-Syne fw-bold text-[23px]">About Me</h4>
-                                    <p className="text-[20px] mt-3 font-Poppins">Mark Henry, Product Designer, based in German. That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for,</p>
+                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Mark Henry, Product Designer, based in German. That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for,</p>
 
-                                    <p className="text-[20px] mt-3 font-Poppins">but words that truly land with those that read them, calling your audience in and making them want more.</p>
+                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">but words that truly land with those that read them, calling your audience in and making them want more.</p>
 
                                     <div className="resune-bio">
                                         <div className="d-flex items-center">
-                                            <p className="text-[20px] mt-3 font-Poppins col-lg-3">Name</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <p className="text-[16px] md:text-[20px] mt-3 font-Poppins  md:w-[30%]">Name</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 Pavan Prajapat
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[20px] mt-3 font-Poppins col-lg-3">Nationality</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <p className="text-[16px] md:text-[20px] mt-3 font-Poppins  md:w-[30%]">Nationality</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 India
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[20px] mfont-Poppins  col-lg-3">Phone</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <p className="text-[16px] md:text-[20px] mfont-Poppins   md:w-[30%]">Phone</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 8302088852
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Email</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <p className="text-[16px] md:text-[20px]font-Poppins   md:w-[30%]">Email </p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 pavanprajapat241@gmail.com
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Experience</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <p className="text-[16px] md:text-[20px]font-Poppins   md:w-[30%]">Experience</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 1.2
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Freelance
+                                            <p className="text-[16px] md:text-[20px]font-Poppins   md:w-[30%]mb-0">Freelance
                                             </p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 Available
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Language
+                                            <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]mb-0">Language
                                             </p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 8302088852
                                             </span>
                                         </div>

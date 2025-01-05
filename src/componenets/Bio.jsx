@@ -13,26 +13,25 @@ const Bio = () => {
                         <div className="col-lg-6">
                             <span className="font-Syne fw-bold text-[#ff9330]">Hello I'm</span>
 
-                            <h3 className="hero-title font-Syne fw-bold position-relative mb-0 ">
-                                Vicky Prajapat, Full stack web developer
+                            <h3 className="font-Syne fw-bold position-relative mb-0 ">
+                                Pavan Prajapat, Full stack web developer
                             </h3>
 
-                            <p className="text-[20px] mt-3 font-Poppins">That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making them.</p>
-
+                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making them.</p>
 
                             <div className="my-personal-content">
-                                <ul className='p-0 flex items-center gap-4'>
-                                    <li >
+                                <ul className='p-0 flex items-center gap-3 md:gap-4 flex-wrap mb-4 md:mb-0'>
+                                    <li>
                                         <span className="font-Syne fw-bold text-[30px]">08</span>
-                                        <p className='font-Poppins'>Award Winner</p>
+                                        <p className='font-Poppins mb-0'>Award Winner</p>
                                     </li>
                                     <li>
                                         <span className="font-Syne fw-bold text-[30px]">1.3</span>
-                                        <p className='font-Poppins'>Year Of Experiance</p>
+                                        <p className='font-Poppins mb-0'>Year Of Experiance</p>
                                     </li>
                                     <li>
                                         <span className="font-Syne fw-bold text-[30px]">3.1</span>
-                                        <p className='font-Poppins'>Year Of Hand on Experiance</p>
+                                        <p className='font-Poppins mb-0'>Year Of Hand on Experiance</p>
                                     </li>
 
                                 </ul>

@@ -282,12 +282,27 @@ span.hamburger-line:nth-child(3) {
   text-shadow: 1px 1px 0 rgba(8, 8, 8, 0.4), -1px -1px 0 rgba(8, 8, 8, 0.4), 1px -1px 0 rgba(8, 8, 8, 0.4), -1px 1px 0 rgba(8, 8, 8, 0.4), 1px 1px 0 rgba(8, 8, 8, 0.4);
 }
 
+.hero-title{
+  line-height: 108px;
+}
+
 
 @media only screen and (max-width: 768px){
 
   h3{
-    font-size: 2rem !important;
+    font-size: 1.7rem !important;
+    line-height: normal;
   }
+
+  h1{
+    font-size: 3.5rem !important;
+  }
+
+  .hero-title{
+    line-height: 60px;
+  }
+  
+  
   
 }
 
