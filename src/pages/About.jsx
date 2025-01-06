@@ -23,11 +23,11 @@ const About = () => {
             <AboutSec />
 
             {/* Bio */}
-            <section className="py-10">
+            <section className="py-md-5 py-3">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <h3 className="hero-title font-Syne fw-bold position-relative mb-0 ">
+                            <h3 className="font-Syne fw-bold position-relative mb-0 ">
                                 My vision is to create happy my clients
                             </h3>
 
@@ -35,18 +35,18 @@ const About = () => {
 
 
                             <div className="my-personal-content">
-                                <ul className='p-0 flex items-center gap-4'>
+                                <ul className='p-0 flex items-center flex-wrap gap-3 md:gap-4 '>
                                     <li >
                                         <span className="font-Syne fw-bold text-[30px]">08</span>
-                                        <p className='font-Poppins'>Award Winner</p>
+                                        <p className='font-Poppins mb-0'>Award Winner</p>
                                     </li>
                                     <li>
                                         <span className="font-Syne fw-bold text-[30px]">1.3</span>
-                                        <p className='font-Poppins'>Year Of Experiance</p>
+                                        <p className='font-Poppins mb-0'>Year Of Experiance</p>
                                     </li>
                                     <li>
                                         <span className="font-Syne fw-bold text-[30px]">3.1</span>
-                                        <p className='font-Poppins'>Year Of Hand on Experiance</p>
+                                        <p className='font-Poppins mb-0'>Year Of Hand on Experiance</p>
                                     </li>
 
                                 </ul>
@@ -55,8 +55,8 @@ const About = () => {
                         </div>
 
                         <div className="col-lg-6">
-                            <div className="pl-5">
-                                <span className='d-block relative font-Syne fw-bold text-[60px] before:content-[""] before:absolute before:h-[70px] before:w-[70px] before:bg-[#FFB646] before:top-1 before:rounded-full before:z-[-1]'>1.2+</span>
+                            <div className="pl-md-5">
+                                <span className='d-block relative font-Syne fw-bold text-[30px] md:text-[60px] before:content-[""] before:absolute before:h-[30px] md:before:h-[70px] before:w-[30px] md:before:w-[70px] before:bg-[#FFB646] before:top-1 before:rounded-full before:z-[-1]'>1.2+</span>
 
                                 <span className="strock-text">
                                     Years of <br />
@@ -76,9 +76,9 @@ const About = () => {
                                     <div className="">
 
                                         <span className="font-Syne font-bold text-[#ff9330]">Say Hello!</span>
-                                        <div className="hero-title font-Syne font-bold relative mb-0 text-white text-[1.5rem]">
+                                        <div className="font-Syne font-bold relative mb-0 text-white text-[16px] md:text-[1.5rem]">
 
-                                            <p className="font-Poppins"><a className="text-white" href="mailto:Vickyprajapat@gmail.com">Vickyprajapat@gmail.com</a></p>
+                                            <p className="font-Poppins mb-0"><a className="text-white" href="mailto:Vickyprajapat@gmail.com">Vickyprajapat@gmail.com</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -90,15 +90,15 @@ const About = () => {
             </section>
 
             {/* Resume */}
-            <section className='py-10 bg-[#0000000a]'>
+            <section className='py-lg-5 py-3 bg-[#0000000a] overflow-hidden'>
                 <div className="container">
 
                     <span className="font-Syne fw-bold text-[#ff9330] text-center d-block">Resume</span>
-                    <h3 className="hero-title font-Syne fw-bold position-relative mb-0 text-center">
+                    <h3 className=" font-Syne fw-bold position-relative mb-0 text-center">
                         All over my details find here...
                     </h3>
 
-                    <ul className='flex gap-3 m-0 p-0 my-4 items-center justify-center'>
+                    <ul className='flex gap-3 m-0 p-0 my-4 items-center justify-center flex-wrap'>
                         <li onClick={() => handleTabClick('tab1')} className={`cursor-pointer flex px-4 py-3 justify-between rounded-md font-Syne fw-bold mb-2 ${activeTab === 'tab1' ? 'bg-black text-white' : 'bg-white text-black'
                             }`}>
                             About Me
@@ -165,47 +165,47 @@ const About = () => {
                                     <p className="text-[18px] mt-4 font-Syne text-[#08080899]">but words that truly land with those that read them, calling your audience in and making them want more.</p>
 
                                     <div className="resune-bio">
-                                        <div className="d-flex items-center">
-                                            <p className="text-[20px] mt-3 font-Poppins col-lg-3">Name</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                        <div className="d-flex items-center mb-3">
+                                            <p className="text-[16px] md:text-[20px]  font-Poppins col-lg-3 col-5 mb-0">Name</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 Pavan Prajapat
                                             </span>
                                         </div>
-                                        <div className="d-flex items-center">
-                                            <p className="text-[20px] mt-3 font-Poppins col-lg-3">Nationality</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                        <div className="d-flex items-center mb-3">
+                                            <p className="text-[16px] md:text-[20px] font-Poppins col-lg-3 col-5 mb-0">Nationality</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 India
                                             </span>
                                         </div>
-                                        <div className="d-flex items-center">
-                                            <p className="text-[20px] mfont-Poppins  col-lg-3">Phone</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                        <div className="d-flex items-center mb-3">
+                                            <p className="text-[16px] md:text-[20px] font-Poppins  col-lg-3 col-5 mb-0">Phone</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 8302088852
                                             </span>
                                         </div>
-                                        <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Email</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                        <div className="d-flex items-center mb-3">
+                                            <p className="text-[16px] md:text-[20px] font-Poppins  col-lg-3 col-5 mb-0">Email</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 pavanprajapat241@gmail.com
                                             </span>
                                         </div>
-                                        <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Experience</p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                        <div className="d-flex items-center mb-3">
+                                            <p className="text-[16px] md:text-[20px] font-Poppins  col-lg-3 col-5 mb-0">Experience</p>
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 1.2
                                             </span>
                                         </div>
-                                        <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Freelance
+                                        <div className="d-flex items-center mb-3">
+                                            <p className="text-[16px] md:text-[20px] font-Poppins  col-lg-3 col-5 mb-0">Freelance
                                             </p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 Available
                                             </span>
                                         </div>
-                                        <div className="d-flex items-center">
-                                            <p className="text-[20px] font-Poppins  col-lg-3">Language
+                                        <div className="d-flex items-center mb-3">
+                                            <p className="text-[16px] md:text-[20px] font-Poppins  col-lg-3 col-5 mb-0">Language
                                             </p>
-                                            <span className="font-Syne fw-bold text-[20px]">
+                                            <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 8302088852
                                             </span>
                                         </div>

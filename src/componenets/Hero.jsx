@@ -8,8 +8,10 @@ const Hero = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="py-10">
+                            <div className="py-3 py-lg-5">
+
                                 <span className="font-Syne text-dark fw-bold lh-1 text-2xl d-flex flex-wrap align-items-center hello-iam aos-init aos-animate" data-aos="fade-right" data-aos-delay="300">
+
                                     <span className="mr-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="65" height="2" viewBox="0 0 65 2" fill="none">
                                             <path d="M0 1H65" stroke="#080808"></path>
@@ -26,7 +28,7 @@ const Hero = () => {
                                 <p className="font-Syne fw-bold text-[15px] md:text-[20px] mt-3">Full Stack Developer | Based on Development</p>
 
                                 <div className="hero-button-group mt-2">
-                                    <Link to="/" className="text-white bg-black inline-block rounded-md contact-link  px-4  py-3 sm:bg-blue-500">
+                                    <Link to="/" className="text-white bg-black inline-block rounded-md contact-link px-3 py-2 px-lg-4  py-lg-3">
                                         <div className="font-bold flex items-center">
                                             Let's Talk
                                             <span className="animate-arrow-up pl-2">
@@ -38,7 +40,7 @@ const Hero = () => {
                                         </div>
                                     </Link>
 
-                                    <Link to="/" className="text-black bg-[trabsparent]  inline-block rounded-md px-4 py-3 contact-link mt-2 md:mt-0 md:ml-3 border-1 border-black">
+                                    <Link to="/" className="text-black bg-[trabsparent]  inline-block rounded-md px-3 py-2 px-lg-4 py-lg-3 contact-link mt-2 ml-3 border-1 border-black">
                                         <div className="font-bold flex items-center  rounded-sm ">
                                             My Work
                                             <span className="animate-arrow-up pl-2">

@@ -302,6 +302,12 @@ span.hamburger-line:nth-child(3) {
     line-height: 60px;
   }
   
+  .strock-text {
+    font-size: 2rem;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+  }
+  
   
   
 }

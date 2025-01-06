@@ -8,7 +8,7 @@ const footer = () => {
                 <div className="container">
                     <div className="row py-10">
                         <div className="col-lg-4">
-                            <h3 className="hero-title font-Syne fw-bold position-relative mb-0 text-white">
+                            <h3 className="font-Syne fw-bold position-relative mb-0 text-white">
                                 Let's Work Together
                             </h3>
                             <div className="hero-network my-3 md:my-5 flex items-center text-white">
