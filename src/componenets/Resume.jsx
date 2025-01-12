@@ -85,9 +85,9 @@ const Resume = () => {
 
                                 <div>
                                     <h4 className="font-Syne fw-bold text-[23px]">About Me</h4>
-                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Mark Henry, Product Designer, based in German. That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for,</p>
+                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hi, I’m Pavan Prajapat, a passionate and driven Full Stack Web Developer. I specialize in creating dynamic and user-friendly web applications that deliver seamless user experiences. With expertise in both front-end and back-end technologies, I build efficient, scalable, and impactful solutions.</p>
 
-                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">but words that truly land with those that read them, calling your audience in and making them want more.</p>
+                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">My goal is to combine my technical skills with creativity to turn ideas into reality, ensuring every project I work on is both functional and visually appealing. Let’s create something amazing together!</p>
 
                                     <div className="resune-bio">
                                         <div className="d-flex items-center">
@@ -109,26 +109,26 @@ const Resume = () => {
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[16px] md:text-[20px]font-Poppins   md:w-[30%]">Email </p>
+                                            <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Email </p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 pavanprajapat241@gmail.com
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[16px] md:text-[20px]font-Poppins   md:w-[30%]">Experience</p>
+                                            <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Experience</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 1.2
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[16px] md:text-[20px]font-Poppins   md:w-[30%]mb-0">Freelance
+                                            <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Freelance
                                             </p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 Available
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]mb-0">Language
+                                            <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Language
                                             </p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 8302088852
@@ -149,7 +149,7 @@ const Resume = () => {
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <small>06/2024 – Running</small>
+                                                    <strong class="">June – Running, 2025</strong>
 
                                                     <p className="dot_  relative pl-3 mt-4 mb-4">Webtter Internet Solution ( Ecommerce Management, Php, Laravel )</p>
 
@@ -163,12 +163,12 @@ const Resume = () => {
                                             <div className="col-lg-6">
                                                 <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
 
-                                                    <small>06/2023 – 6/2024</small>
+                                                    <strong>Octomber – April, 2024</strong>
 
                                                     <p className="dot_  relative pl-3 mt-4 mb-4">Raza Web Tech (Core PHP, Wordpress, React.js)</p>
 
                                                     <h4 className="font-Syne fw-bold flex justify-between mt-3">
-                                                        Lead Genration
+                                                    Full Stack Web Developer
 
                                                     </h4>
 

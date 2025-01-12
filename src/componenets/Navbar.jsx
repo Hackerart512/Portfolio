@@ -29,7 +29,7 @@ const Navbar = (props) => {
                             <div className=''>
                                 <div className="menu-bar">
                                     <div className="flex items-center justify-between">
-                                        <Link to="/" className="contact-link">
+                                    <a href="tel:8302088852" className="contact-link">
                                             <div className="font-bold flex items-center">
                                                 Let's Talk
                                                 <span className="animate-arrow-up pl-2">
@@ -39,7 +39,7 @@ const Navbar = (props) => {
                                                     </svg>
                                                 </span>
                                             </div>
-                                        </Link>
+                                        </a>
 
                                         <div className="ml-4">
                                             <div className={`hamburger ${humburgerToggle ? 'active' : ''}`} onClick={toggleIcon}>

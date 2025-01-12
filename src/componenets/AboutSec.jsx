@@ -22,9 +22,9 @@ const AboutSec = () => {
                                     Full Stack Web Developer
                                 </h4>
 
-                                <b class="font-Syne text-[16px] md:text-[20px] " style={{lineHeight: "normal;"}}>A Product Designer & Developer and I am in the game for over 7+ years. I am proud of my works and ready to face the next challenge</b>
+                                <b class="font-Syne text-[16px] md:text-[20px] " style={{lineHeight: "normal;"}}>A Product Full stack Developer and I am in the game for over 1+ years. I am proud of my works and ready to face the next challenge</b>
 
-                                <p className="text-[18px] mt-4 font-Syne text-[#08080899]">That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making them.</p>
+                                <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hello, I'm Pavan Prajapat, a Full Stack Web Developer skilled in creating dynamic, user-friendly, and efficient web solutions. I specialize in responsive design, performance optimization, and scalable system integration to deliver exceptional user experiences.</p>
  
 
                         </div>

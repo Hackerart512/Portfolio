@@ -31,7 +31,7 @@ const About = () => {
                                 My vision is to create happy my clients
                             </h3>
 
-                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making them want more.</p>
+                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">As a dedicated Full Stack Web Developer, my vision is to deliver solutions that not only meet technical requirements but also bring genuine satisfaction to my clients. I aim to craft intuitive, efficient, and visually captivating web applications that elevate user experiences and exceed expectations. By turning ideas into impactful digital realities, I strive to create lasting value and foster happiness through my work.</p>
 
 
                             <div className="my-personal-content">
@@ -56,7 +56,7 @@ const About = () => {
 
                         <div className="col-lg-6">
                             <div className="pl-md-5">
-                                <span className='d-block relative font-Syne fw-bold text-[30px] md:text-[60px] before:content-[""] before:absolute before:h-[30px] md:before:h-[70px] before:w-[30px] md:before:w-[70px] before:bg-[#FFB646] before:top-1 before:rounded-full before:z-[-1]'>1.2+</span>
+                                <span className='d-block relative font-Syne fw-bold text-[30px] md:text-[60px] before:content-[""] before:absolute before:h-[30px] md:before:h-[70px] before:w-[30px] md:before:w-[70px] before:bg-[#FFB646] before:top-1 before:rounded-full before:z-[-1]'>1.3+</span>
 
                                 <span className="strock-text">
                                     Years of <br />
@@ -64,21 +64,23 @@ const About = () => {
                                 </span>
                                 <div className="bg-black rounded-md p-4 my-4 flex justify-between flex-col flex-wrap cursor-pointer">
 
-                                    <div class="text-[#ff9330] ">
-                                        <span className="animate-arrow-up pl-2 float-right">
-                                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                            </svg>
-                                        </span>
-                                    </div>
+                                    <a href="mailto:pavanprajapat241@gmail.com" class="cursor-pointer   ">
+                                        <div class="text-[#ff9330] ">
+                                            <span className="animate-arrow-up pl-2 float-right">
+                                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </a>
 
                                     <div className="">
 
                                         <span className="font-Syne font-bold text-[#ff9330]">Say Hello!</span>
                                         <div className="font-Syne font-bold relative mb-0 text-white text-[16px] md:text-[1.5rem]">
 
-                                            <p className="font-Poppins mb-0"><a className="text-white" href="mailto:Vickyprajapat@gmail.com">Vickyprajapat@gmail.com</a></p>
+                                            <p className="font-Poppins mb-0"><a className="text-white" href="mailto:Vickyprajapat@gmail.com">pavanprajapat241@gmail.com</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -160,9 +162,7 @@ const About = () => {
                             <div className="col-lg-12">
                                 <div>
                                     <h4 className="font-Syne fw-bold text-[23px]">About Me</h4>
-                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Mark Henry, Product Designer, based in German. That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for,</p>
-
-                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">but words that truly land with those that read them, calling your audience in and making them want more.</p>
+                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hello, I'm Pavan Prajapat, a Full Stack Web Developer skilled in creating dynamic, user-friendly, and efficient web solutions. I specialize in responsive design, performance optimization, and scalable system integration to deliver exceptional user experiences.</p>
 
                                     <div className="resune-bio">
                                         <div className="d-flex items-center mb-3">
@@ -192,7 +192,7 @@ const About = () => {
                                         <div className="d-flex items-center mb-3">
                                             <p className="text-[16px] md:text-[20px] font-Poppins  col-lg-3 col-5 mb-0">Experience</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                1.2
+                                                1.3
                                             </span>
                                         </div>
                                         <div className="d-flex items-center mb-3">
@@ -227,7 +227,7 @@ const About = () => {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                            <small>06/2024 – Running</small>
+                                            <strong class="">June – Running, 2025</strong>
 
                                             <p className="dot_  relative pl-3 mt-4 mb-4">Webtter Internet Solution ( Ecommerce Management, Php, Laravel )</p>
 
@@ -241,12 +241,12 @@ const About = () => {
                                     <div className="col-lg-6">
                                         <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
 
-                                            <small>06/2023 – 6/2024</small>
+                                            <strong>Octomber – April, 2024</strong>
 
                                             <p className="dot_  relative pl-3 mt-4 mb-4">Raza Web Tech (Core PHP, Wordpress, React.js)</p>
 
                                             <h4 className="font-Syne fw-bold flex justify-between mt-3">
-                                                Lead Genration
+                                                Full Stack Web Developer
 
                                             </h4>
 

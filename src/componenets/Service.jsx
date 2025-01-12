@@ -15,7 +15,7 @@ const Service = () => {
 
                         </div>
                         <div className="col-lg-6">
-                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Synergistically seize front-end methods of empowerment without extensive core competencies. Progressively repurpose alternative platforms</p>
+                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">As a Full Stack Developer, I specialize in crafting responsive and dynamic web applications with expertise in React.js, Node.js, and Laravel. I build scalable backends, integrate APIs, and optimize website performance for seamless user experiences. With a strong focus on e-commerce development, cloud deployment, and modern DevOps practices, I ensure high-quality solutions tailored to client needs.</p>
                         </div>
                     </div>
 
@@ -109,15 +109,16 @@ const Service = () => {
                                 <div className="col-lg-12">
 
                                     <div className="bg-black rounded-md p-4 md:mb-3 h-100 flex justify-between flex-col flex-wrap">
-
-                                        <div class="text-[#ff9330] ">
-                                            <span className="animate-arrow-up pl-2 float-right">
-                                                <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </svg>
-                                            </span>
-                                        </div>
+                                        <a href="mailto:pavanprajapat241@gmail.com" class="cursor-pointer   ">
+                                            <div class="text-[#ff9330] ">
+                                                <span className="animate-arrow-up pl-2 float-right">
+                                                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                        <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </a>
 
                                         <div className="">
 

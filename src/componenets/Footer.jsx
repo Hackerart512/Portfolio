@@ -13,9 +13,9 @@ const footer = () => {
                             </h3>
                             <div className="hero-network my-3 md:my-5 flex items-center text-white">
                                 <span className="client-couter font-Syne fw-bold text-[30px] ">
-                                    1.2k+
+                                    1+
                                 </span>
-                                <span className="mx-3">Worldwide client</span>
+                                <span className="mx-3">Year of Experiance</span>
                                 <span className="mx-8">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="2" height="14" viewBox="0 0 2 14" fill="none">
                                         <path d="M1 0L1 14" stroke="#080808" stroke-opacity="0.4"></path>
@@ -47,7 +47,7 @@ const footer = () => {
                                     <h5 className='text-white uppercase mb-3 mt-2 md:mt-2 md:mb-5 pt-3'>Contact</h5>
                                     <ul className="m-0 p-0 text-[#adadad]">
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
-                                           New York, 123 road
+                                           Pratap Nagar Apani Dhani road, Udaipur(Rajsthan)
                                         </li>
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
                                            pavanprajapat241@gmail.com

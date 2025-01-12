@@ -17,7 +17,7 @@ const Bio = () => {
                                 Pavan Prajapat, Full stack web developer
                             </h3>
 
-                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not only reflects who you are and what you stand for, but words that truly land with those that read them, calling your audience in and making them.</p>
+                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hello, I'm Pavan Prajapat, a Full Stack Web Developer skilled in creating dynamic, user-friendly, and efficient web solutions. I specialize in responsive design, performance optimization, and scalable system integration to deliver exceptional user experiences.</p>
 
                             <div className="my-personal-content">
                                 <ul className='p-0 flex items-center gap-3 md:gap-4 flex-wrap mb-4 md:mb-0'>
@@ -37,7 +37,7 @@ const Bio = () => {
                                 </ul>
                             </div>
 
-                            <Link to="/" className="text-white bg-black inline-block rounded-md px-4 py-3 contact-link  hover:bg-[transparent] font-Syne">
+                            <a  href="resume/resume.pdf" download="Pavan_Prajapat_Resume.pdf" className="text-white bg-black inline-block rounded-md px-4 py-3 contact-link  hover:bg-[transparent] font-Syne">
                                 <div className="font-bold flex items-center">
                                     Download My Resume
                                     <span className="animate-arrow-up pl-2">
@@ -47,7 +47,7 @@ const Bio = () => {
                                         </svg>
                                     </span>
                                 </div>
-                            </Link>
+                            </a>
 
                         </div>
                     </div>
