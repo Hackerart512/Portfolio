@@ -20,8 +20,9 @@ const Navbar = (props) => {
                         <div className='flex justify-between items-center'>
                             <div className=''>
                                 <Link to="/">
-                                    <div className="logo">
-                                        <img src="/images/logo-dark.png" alt="logo" />
+                                    <div className="logo flex align-items-center justify-center flex-col">
+                                        <img width="50" src="/images/logo.png" alt="logo" />
+                                        <span className="text-black text-center block font-Syne fw-bold">DevPavan</span>
                                     </div>
                                 </Link>
                             </div>
@@ -62,9 +63,10 @@ const Navbar = (props) => {
                     <div className="col-lg-12 bg-[black]">
                         <div className="side-bar-header flex justify-between items-center py-3 px-4">
                             <div className="">
-                                <div className="logo">
-                                    <img src="/images/offcanvas-logo.png" alt="logo" />
-                                </div>
+                            <div className="logo flex align-items-center justify-center flex-col">
+                                        <img width="50" src="/images/logo_light.png" alt="logo" />
+                                        <span className="text-[#ff9330] text-center block font-Syne fw-bold">DevPavan</span>
+                                    </div>
                             </div>
                             <div className="">
                                 <div className="ml-4">
