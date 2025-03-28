@@ -16,6 +16,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js//bootstrap.bundle.min";
 import "font-awesome/css/font-awesome.min.css";
 import Contact from './pages/Contact';
+import BlogShow from './pages/BlogShow';
+import ShowWork from './pages/ShowWork';
  
 
 
@@ -28,6 +30,8 @@ function App() {
           <Route exact path="/about-us" element={<About/>} />
           <Route exact path="/demo" element={<Demo/>} />
           <Route exact path="/contact" element={<Contact/>} />
+          <Route exact path="/blog" element={<BlogShow/>} />
+          <Route xeact path="/work" element={<ShowWork/>} />
         </Routes>
       </Router >
     </>

@@ -29,12 +29,12 @@ const footer = () => {
                                 <div className="col-lg-6">
                                     <h5 className='text-white uppercase mb-3 md:mb-5 pt-3'>Usefull Link</h5>
                                     <ul className="m-0 p-0 text-[#adadad]">
-                                        <li className='  mb-2'>
+                                        <li className='mb-2'>
                                             <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/">
                                                 Home
                                             </Link>
                                         </li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>About</li>
+                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>aAbout</li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Services</li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Contact us</li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Blogs</li>

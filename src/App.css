@@ -17,6 +17,7 @@
   --scrollbar-thumb-hover: #000000; /* Accent Black */
   --primary: #d37543;
   --shads: #e2e0e0;
+  --primary:#ffe9d9;
 }
 
 /* Custom Scrollbar for Webkit Browsers (Chrome, Edge, etc.) */
@@ -96,6 +97,10 @@ h3{
 }
 
 h4{
+  font-size: 2.5rem !important;
+}
+
+h5{
   font-size: 1.3rem !important;
 }
 /* ------------------------------------------------------
@@ -251,7 +256,7 @@ span.hamburger-line:nth-child(3) {
   background-color:#0808080a !important;
 }
 
-.services-cart:hover h4{
+.services-cart:hover h5{
   color:#fab345;
 }
 
@@ -289,6 +294,10 @@ span.hamburger-line:nth-child(3) {
 
 @media only screen and (max-width: 768px){
 
+  .popup.show {
+    width: 100%;
+  }
+
   h3{
     font-size: 1.7rem !important;
     line-height: normal;
@@ -307,8 +316,6 @@ span.hamburger-line:nth-child(3) {
     line-height: 31px;
     letter-spacing: 0.5px;
   }
-  
-  
   
 }
 

@@ -74,7 +74,7 @@ const Hero = () => {
                                     <div className="social-links">
                                         <ul className="mb-0 gap-3 d-flex flex-wrap align-items-center list-unstyled">
                                             <li>
-                                                <a href="https://www.behance.net/" className="text-dark">
+                                                <a href="https://www.instgram.com" className="text-dark">
                                                     <Instagram />
 
 
