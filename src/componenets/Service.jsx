@@ -109,8 +109,8 @@ const Service = () => {
                                 <div className="col-lg-12">
 
                                     <div className="bg-black rounded-md p-4 md:mb-3 h-100 flex justify-between flex-col flex-wrap">
-                                        <a href="mailto:pavanprajapat241@gmail.com" class="cursor-pointer   ">
-                                            <div class="text-[#ff9330] ">
+                                        <a href="mailto:pavanprajapat241@gmail.com" className="cursor-pointer   ">
+                                            <div className="text-[#ff9330] ">
                                                 <span className="animate-arrow-up pl-2 float-right">
                                                     <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>

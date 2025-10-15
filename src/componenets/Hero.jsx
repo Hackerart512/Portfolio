@@ -1,8 +1,16 @@
 import { GitHub, Instagram, LinkedIn, WhatsApp } from '@material-ui/icons'
-import React from 'react'
+import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
 
+import { animateSplitText } from "../utils/animateSplitText";
+
 const Hero = () => {
+
+    useEffect(() => {
+        // Animate all elements with class ".split-animate"
+        animateSplitText(".split-animate");
+    }, []);
+
     return (
         <>
             <section className="hero-section bg-[#ffe9d9]">
@@ -22,7 +30,7 @@ const Hero = () => {
                                     Hello, I'm															<img className="ml-2" decoding="async" src="images/victory.png" alt="" />
                                 </span>
 
-                                <h1 className="hero-title font-Syne fw-bold position-relative mb-0  mt-3 md:mt-0" >
+                                <h1 className="split-animate hero-title font-Syne fw-bold position-relative mb-0  mt-3 md:mt-0" >
                                     Pavan <br />Prajapat
                                 </h1>
 

@@ -316,9 +316,25 @@ span.hamburger-line:nth-child(3) {
     line-height: 31px;
     letter-spacing: 0.5px;
   }
+
+ 
   
 }
+ @media (min-width: 320px) {
+    .container {
+        max-width: 405px;
+    }
+}
 
-@media only screen and (max-width:425px){
-  
+.swiper-pagination-bullet-active {
+    width: 26px !important;
+    height: 10px !important;
+    border-radius: 100px !important;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--scrollbar-thumb) !important;
+}
+.swiper-pagination-bullet{
+    width: 10px !important;
+    height: 10px !important;
+    transition: all 0.3s ease-in-out;
 }

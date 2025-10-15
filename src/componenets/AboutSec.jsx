@@ -18,11 +18,11 @@ const AboutSec = () => {
                                     Pavan Prajapat
                                 </h3>
 
-                                <h4 class="font-Syne fw-bold flex justify-between mb-3 md:mb-4 ">
+                                <h4 className="font-Syne fw-bold flex justify-between mb-3 md:mb-4 ">
                                     Full Stack Web Developer
                                 </h4>
 
-                                <b class="font-Syne text-[16px] md:text-[20px] " style={{lineHeight: "normal;"}}>A Product Full stack Developer and I am in the game for over 1+ years. I am proud of my works and ready to face the next challenge</b>
+                                <b className="font-Syne text-[16px] md:text-[20px] " style={{lineHeight: "normal;"}}>A Product Full stack Developer and I am in the game for over 1+ years. I am proud of my works and ready to face the next challenge</b>
 
                                 <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hello, I'm Pavan Prajapat, a Full Stack Web Developer skilled in creating dynamic, user-friendly, and efficient web solutions. I specialize in responsive design, performance optimization, and scalable system integration to deliver exceptional user experiences.</p>
  

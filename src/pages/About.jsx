@@ -64,8 +64,8 @@ const About = () => {
                                 </span>
                                 <div className="bg-black rounded-md p-4 my-4 flex justify-between flex-col flex-wrap cursor-pointer">
 
-                                    <a href="mailto:pavanprajapat241@gmail.com" class="cursor-pointer   ">
-                                        <div class="text-[#ff9330] ">
+                                    <a href="mailto:pavanprajapat241@gmail.com" className="cursor-pointer   ">
+                                        <div className="text-[#ff9330] ">
                                             <span className="animate-arrow-up pl-2 float-right">
                                                 <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -227,7 +227,7 @@ const About = () => {
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                            <strong class="">June – Running, 2025</strong>
+                                            <strong className="">June – Running, 2025</strong>
 
                                             <p className="dot_  relative pl-3 mt-4 mb-4">Webtter Internet Solution ( Ecommerce Management, Php, Laravel )</p>
 

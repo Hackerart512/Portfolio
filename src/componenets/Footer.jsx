@@ -18,7 +18,7 @@ const footer = () => {
                                 <span className="mx-3">Year of Experiance</span>
                                 <span className="mx-8">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="2" height="14" viewBox="0 0 2 14" fill="none">
-                                        <path d="M1 0L1 14" stroke="#080808" stroke-opacity="0.4"></path>
+                                        <path d="M1 0L1 14" stroke="#080808" strokeOpacity="0.4"></path>
                                     </svg>
                                 </span>
 
@@ -34,7 +34,7 @@ const footer = () => {
                                                 Home
                                             </Link>
                                         </li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>aAbout</li>
+                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>About</li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Services</li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Contact us</li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Blogs</li>

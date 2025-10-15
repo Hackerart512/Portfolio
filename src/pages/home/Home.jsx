@@ -5,6 +5,7 @@ import Bio from '../../componenets/Bio'
 import Service from '../../componenets/Service'
 import Hero from '../../componenets/Hero'
 import Footer from '../../componenets/Footer'
+import PortfolioSlider from '../../componenets/PortfolioSlider'
 
 import { Helmet } from 'react-helmet-async'
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
             <Service />
             <Bio />
             <Resume />
+            <PortfolioSlider/>
 
             <Footer />
         </>
