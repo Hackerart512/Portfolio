@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import Navbar from '../componenets/Navbar'
 import Footer from '../componenets/Footer'
+import GalleryLightbox from '../componenets/GalleryLightbox'
 
 import { Helmet } from 'react-helmet-async'
 import { getById } from "../api/Api";
@@ -67,9 +68,8 @@ const PortfolioDetailPage = () => {
 
                 <div className="mt-10">
                     <h2 className="text-2xl font-semibold mb-4">Project Gallery</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-
-                        {card.gallery?.map((img, index) => (
+                   
+                        {/* {card.gallery?.map((img, index) => (
                             <div key={index} className="overflow-hidden rounded-xl shadow-md hover:shadow-lg transition">
                                 <img
                                     src={img}
@@ -77,11 +77,11 @@ const PortfolioDetailPage = () => {
                                     alt={`Gallery ${index + 1}`}
                                 />
                             </div>
-                        ))}
+                        ))} */}
 
+                    <GalleryLightbox card={card.gallery} />
 
-
-                    </div>
+ 
                 </div>
             </section>
 

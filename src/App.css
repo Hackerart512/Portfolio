@@ -291,6 +291,19 @@ span.hamburger-line:nth-child(3) {
   line-height: 108px;
 }
 
+/* Swipper Bundle CSS */
+.swiper {
+  overflow: unset !important;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    background: white;
+    border-radius: 50%;
+    padding: 12px;
+    color: #ff9330 !important;
+    font-weight: 900;
+    box-shadow: 0 0 10px gray;
+}
 
 @media only screen and (max-width: 768px){
 

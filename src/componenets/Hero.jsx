@@ -1,4 +1,4 @@
-import { GitHub, Instagram, LinkedIn, WhatsApp } from '@material-ui/icons'
+import { GitHub, Instagram, LinkedIn, WhatsApp } from '@mui/icons-material';
 import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
 
