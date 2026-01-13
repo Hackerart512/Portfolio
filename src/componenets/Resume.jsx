@@ -149,13 +149,23 @@ const Resume = () => {
                                         <div className="row">
                                             <div className="col-lg-6">
                                                 <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <strong className="">June – Running, 2025</strong>
+                                                    <strong className="">December, 2025 – Running</strong>
 
+                                                    <p className="dot_  relative pl-3 mt-4 mb-4">Musk Owl LLP </p>
+
+                                                    <p className="font-Syne fw-bold flex justify-between mt-3 text-[20px]">
+                                                        Senior Full Stack Web Developer
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
+                                                    <strong className="">June 2024 – December, 2025</strong>
                                                     <p className="dot_  relative pl-3 mt-4 mb-4">Webtter Internet Solution ( Ecommerce Management, Php, Laravel )</p>
 
                                                     <p className="font-Syne fw-bold flex justify-between mt-3 text-[20px]">
-                                                        Full Stack Web Developer
-
+                                                        Junior Full Stack Web Developer
                                                     </p>
 
                                                 </div>
@@ -163,12 +173,12 @@ const Resume = () => {
                                             <div className="col-lg-6">
                                                 <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
 
-                                                    <strong>Octomber – April, 2024</strong>
+                                                    <strong>Octomber 2023 – April, 2024</strong>
 
                                                     <p className="dot_  relative pl-3 mt-4 mb-4">Raza Web Tech (Core PHP, Wordpress, React.js)</p>
 
                                                     <p className="font-Syne fw-bold flex justify-between mt-3 text-[20px]">
-                                                    Full Stack Web Developer
+                                                        Web Developer
 
                                                     </p>
 
@@ -258,107 +268,93 @@ const Resume = () => {
 
                                     <div className="skills-container mt-4">
 
-                                        <div className="row">
 
-                                            <div className="col-lg-4 col-6">
-                                                <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <div className="row">
-                                                        <div className="col-lg-4">
-                                                            <img src="./images/skils_logo/react.png" alt="" />
-                                                        </div>
-                                                        <div className="col-lg-8">
-                                                            <p className="font-Syne fw-bold mb-0 text-[20px]">
-                                                                React JS
-                                                            </p>
-                                                            <p className=" relative mb-0">(90%)</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div className=" ">
+                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
 
-                                            <div className="col-lg-4 col-6">
-                                                <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <div className="row">
-                                                        <div className="col-lg-4">
-                                                            <img src="./images/skils_logo/laravel.png" alt="" />
-                                                        </div>
-                                                        <div className="col-lg-8">
-                                                            <p className="font-Syne fw-bold mb-0 text-[20px]">
-                                                                Laravel
-                                                            </p>
-                                                            <p className=" relative mb-0">(90%)</p>
-                                                        </div>
-                                                    </div>
+                                                <div className=" ">
+                                                    <img   className=" m-auto " width="80"  src="./images/skils_logo/react.png" alt="" />
                                                 </div>
-                                            </div>
 
-                                            <div className="col-lg-4 col-6">
-                                                <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <div className="row">
-                                                        <div className="col-lg-4">
-                                                            <img src="./images/skils_logo/wordpress.png" alt="" />
-                                                        </div>
-                                                        <div className="col-lg-8">
-                                                            <p className="font-Syne fw-bold mb-0 text-[20px]">
-                                                                Wordpress
-                                                            </p>
-                                                            <p className=" relative mb-0">(70%)</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                               
+                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
+                                                    React JS
+                                                </p>
 
-                                            <div className="col-lg-4 col-6">
-                                                <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <div className="row">
-                                                        <div className="col-lg-4">
-                                                            <img src="./images/skils_logo/canva.png" alt="" />
-                                                        </div>
-                                                        <div className="col-lg-8">
-                                                            <p className="font-Syne fw-bold mb-0 text-[20px]">
-                                                                Canva
-                                                            </p>
-                                                            <p className=" relative mb-0">(70%)</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             </div>
-                                             <div className="col-lg-4 col-6">
-                                                <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <div className="row">
-                                                        <div className="col-lg-4">
-                                                            <img src="./images/skils_logo/nodejs.png" alt="" />
-                                                        </div>
-                                                        <div className="col-lg-8">
-                                                            <p className="font-Syne fw-bold mb-0 text-[20px]">
-                                                                Node Js
-                                                            </p>
-                                                            <p className=" relative mb-0">(70%)</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                             <div className="col-lg-4 col-6">
-                                                 <div className="services-cart bg-[#0808080a] rounded-xl p-4 mb-3">
-                                                    <div className="row">
-                                                        <div className="col-lg-4">
-                                                            <img src="./images/skils_logo/php.png" alt="" />
-                                                        </div>
-                                                        <div className="col-lg-8">
-                                                            <p className="font-Syne fw-bold mb-0 text-[20px]">
-                                                                Php
-                                                            </p>
-                                                            <p className=" relative mb-0">(70%)</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
                                         </div>
 
+                                        <div className="">
+                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3  ">
+
+                                                <div className="  ">
+                                                    <img  className=" m-auto " width="80"  src="./images/skils_logo/laravel.png" alt="" />
+                                                </div>
+
+                                          
+                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
+                                                    Laravel
+                                                </p>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div className="">
+                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
+
+                                                <div className=" ">
+                                                    <img   className=" m-auto "   width="80"  src="./images/skils_logo/wordpress.png" alt="" />
+                                                </div>
+
+                                              
+                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
+                                                    Wordpress
+                                                </p>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div className="">
+                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
+                                                <div className=" ">
+                                                    <img  className=" m-auto " width="80"  src="./images/skils_logo/canva.png" alt="" />
+                                                </div>
+                                            
+                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
+                                                    Canva
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="">
+                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3  ">
+                                                <div className="">
+                                                    <img  className=" m-auto " width="80"  src="./images/skils_logo/nodejs.png" alt="" />
+                                                </div>
+                                          
+                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
+                                                    Node Js
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div className="">
+                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
+                                                <div className="">
+                                                    <img  className=" m-auto " width="80" src="./images/skils_logo/php.png" alt="" />
+                                                </div>
+                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
+                                                    Php
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
 
+
+
                                 </div>
+
+
                             }
                             {
                                 activeTab === 'tab5' &&
@@ -369,7 +365,7 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
         </>
     )
 }

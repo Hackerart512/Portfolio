@@ -55,10 +55,6 @@ const ShowWork = () => {
                             <img style={{ aspectRatio: "19/9" }} className="rounded-lg my-3 object-cover" src="/images/car.jpg" decording="async" loading="lazy" alt="blog images" />
                         </div>
 
-
-
-
-
                     </div>
                 </div>
             </section>

@@ -20,9 +20,9 @@ const Service = () => {
                     </div>
 
                     <div className="row mt-4">
-                        <div className="col-lg-8">
+                        <div className="col-lg-12">
                             <div className="row">
-                                <div className="col-lg-4">
+                                <div className="col-lg-3 col-6">
                                     <div className="services-cart bg-[#0808080a] rounded-md p-4 mb-4">
 
                                         <div className="service-svg flex items-center justify-center w-[50px] h-[50px] bg-white rounded-full">
@@ -42,7 +42,7 @@ const Service = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4">
+                                <div className="col-lg-3  col-6">
                                     <div className="services-cart bg-[#0808080a] rounded-md p-4 mb-3">
 
                                         <div className="service-svg flex items-center justify-center w-[50px] h-[50px] bg-white rounded-full">
@@ -50,7 +50,7 @@ const Service = () => {
                                         </div>
 
                                         <h5 className="font-Syne fw-bold flex justify-between mt-3">
-                                            Website SEO Development
+                                            Website SEO
                                             <span className="animate-arrow-up pl-2">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -62,7 +62,7 @@ const Service = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4">
+                                <div className="col-lg-3  col-6" >
                                     <div className="services-cart bg-[#0808080a] rounded-md p-4 mb-3">
 
                                         <div className="service-svg flex items-center justify-center w-[50px] h-[50px] bg-white rounded-full">
@@ -82,7 +82,7 @@ const Service = () => {
                                     </div>
                                 </div>
 
-                                <div className="col-lg-4">
+                                <div className="col-lg-3  col-6">
                                     <div className="services-cart bg-[#0808080a] rounded-md p-4 mb-3">
 
                                         <div className="service-svg flex items-center justify-center w-[50px] h-[50px] bg-white rounded-full">
@@ -103,7 +103,7 @@ const Service = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        {/* <div className="col-lg-4">
                             <div className="row h-100">
 
                                 <div className="col-lg-12">
@@ -133,7 +133,7 @@ const Service = () => {
 
 
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

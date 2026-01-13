@@ -296,6 +296,11 @@ span.hamburger-line:nth-child(3) {
   overflow: unset !important;
 }
 
+h3.mediam-heading{
+  line-height: normal !important;
+  font-size: 2rem !important;
+}
+
 .swiper-button-prev, .swiper-button-next{
     background: white;
     border-radius: 50%;
@@ -351,3 +356,29 @@ span.hamburger-line:nth-child(3) {
     height: 10px !important;
     transition: all 0.3s ease-in-out;
 }
+
+
+.skills-container{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, 1fr);    /* 3 rows */
+  gap: 16px;
+}
+
+@media (max-width: 768px){
+  .skills-container { 
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

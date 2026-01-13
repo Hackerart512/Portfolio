@@ -36,7 +36,7 @@ const GalleryLightbox = ({ card }) => {
                     >
                         <img
                             src={img}
-                            className="w-full h-full object-cover"
+                            className="w-full h-full object-contain"
                             alt={`Gallery ${index + 1}`}
                         />
                     </motion.div>
@@ -58,7 +58,7 @@ const GalleryLightbox = ({ card }) => {
 
                         {/* Image Container */}
                         <motion.div
-                            className="fixed inset-0 flex justify-center items-center z-50 p-4"
+                            className="absolute inset-0 flex justify-center items-center z-50 p-4"
                             initial={{ opacity: 0, scale: 0.95 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.95 }}

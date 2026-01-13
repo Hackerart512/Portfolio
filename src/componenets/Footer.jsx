@@ -34,10 +34,24 @@ const footer = () => {
                                                 Home
                                             </Link>
                                         </li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>About</li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Services</li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Contact us</li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Blogs</li>
+                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
+                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/about-us">
+                                                About
+                                            </Link>
+                                        </li>
+                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
+                                            Services
+                                        </li>
+                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
+                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/contact">
+                                                Contact us
+                                            </Link>
+                                        </li>
+                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
+                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/blog">
+                                                Blogs
+                                            </Link>
+                                        </li>
                                         <li className=' mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Skills</li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330] cursor-pointer'>Education</li>
 
@@ -47,14 +61,14 @@ const footer = () => {
                                     <h5 className='text-white uppercase mb-3 mt-2 md:mt-2 md:mb-5 pt-3'>Contact</h5>
                                     <ul className="m-0 p-0 text-[#adadad]">
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
-                                           Pratap Nagar Apani Dhani road, Udaipur(Rajsthan)
+                                            Pratap Nagar Apani Dhani road, Udaipur(Rajsthan)
                                         </li>
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
-                                           pavanprajapat241@gmail.com
+                                            pavanprajapat241@gmail.com
                                         </li>
 
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
-                                           +91 8302088852
+                                            +91 8302088852
                                         </li>
 
 
@@ -70,7 +84,7 @@ const footer = () => {
                 <div className=" bg-black py-4">
 
                     <p className='text-white text-center mb-0'>
-                        ©2025 Pavan Prajapat, All Rights Reserved
+                        ©2026 Pavan Prajapat, All Rights Reserved
                     </p>
 
                 </div>
