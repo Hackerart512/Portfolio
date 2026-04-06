@@ -1,11 +1,12 @@
 import React from 'react'
-import Navbar from '../../componenets/Navbar'
-import Resume from '../../componenets/Resume'
-import Bio from '../../componenets/Bio'
-import Service from '../../componenets/Service'
-import Hero from '../../componenets/Hero'
-import Footer from '../../componenets/Footer'
-import PortfolioSlider from '../../componenets/PortfolioSlider'
+import Navbar from '../../components/common/Navbar'
+import Resume from '../../components/common/Resume'
+import Bio from '../../components/common/Bio'
+import Service from '../../components/common/Service'
+import Hero from '../../components/common/Hero'
+import Footer from '../../components/common/Footer'
+import PortfolioSlider from '../../components/portfolio/PortfolioSlider'
+import Clients from '../../components/common/Clients'
 
 import { Helmet } from 'react-helmet-async'
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
             <Service />
             <Bio />
             <Resume />
+            <Clients />
             <PortfolioSlider/>
 
             <Footer />
@@ -32,3 +34,4 @@ const Home = () => {
 }
 
 export default Home
+

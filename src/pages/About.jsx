@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Navbar from '../componenets/Navbar'
-import Footer from '../componenets/Footer'
-import AboutSec from '../componenets/AboutSec'
+import Navbar from '../components/common/Navbar'
+import Footer from '../components/common/Footer'
+import AboutSec from '../components/common/AboutSec'
 
 import { Helmet } from 'react-helmet-async'
 
@@ -423,3 +423,4 @@ const About = () => {
 }
 
 export default About
+

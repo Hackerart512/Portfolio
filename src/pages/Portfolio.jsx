@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 
-import Navbar from '../componenets/Navbar'
-import Footer from '../componenets/Footer'
-import GalleryLightbox from '../componenets/GalleryLightbox'
+import Navbar from '../components/common/Navbar'
+import Footer from '../components/common/Footer'
+import GalleryLightbox from '../components/portfolio/GalleryLightbox'
 
 import { Helmet } from 'react-helmet-async'
 import { getById } from "../api/Api";
@@ -419,3 +419,4 @@ const PortfolioDetailPage = () => {
 };
 
 export default PortfolioDetailPage;
+

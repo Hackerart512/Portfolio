@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../componenets/Navbar'
-import Footer from '../componenets/Footer'
+import Navbar from '../components/common/Navbar'
+import Footer from '../components/common/Footer'
 
 
 import { Helmet } from 'react-helmet-async'
@@ -94,3 +94,4 @@ const BlogShow = () => {
 }
 
 export default BlogShow
+
