@@ -117,7 +117,7 @@ const Resume = () => {
                                         <div className="d-flex items-center">
                                             <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Experience</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                1.2
+                                                2+
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
@@ -266,88 +266,112 @@ const Resume = () => {
                                 <div>
                                     <h4 className="font-Syne fw-bold text-[23px]">Skills</h4>
 
-                                    <div className="skills-container mt-4">
+                                    <div className="skills-container mt-4 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
 
-
-                                        <div className=" ">
-                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
-
-                                                <div className=" ">
-                                                    <img   className=" m-auto " width="80"  src="./images/skils_logo/react.png" alt="" />
-                                                </div>
-
-                                               
-                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
-                                                    React JS
-                                                </p>
-
-                                            </div>
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">React JS</p>
                                         </div>
 
-                                        <div className="">
-                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3  ">
-
-                                                <div className="  ">
-                                                    <img  className=" m-auto " width="80"  src="./images/skils_logo/laravel.png" alt="" />
-                                                </div>
-
-                                          
-                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
-                                                    Laravel
-                                                </p>
-
-
-                                            </div>
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Next.js</p>
                                         </div>
 
-                                        <div className="">
-                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
-
-                                                <div className=" ">
-                                                    <img   className=" m-auto "   width="80"  src="./images/skils_logo/wordpress.png" alt="" />
-                                                </div>
-
-                                              
-                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
-                                                    Wordpress
-                                                </p>
-
-
-                                            </div>
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Laravel</p>
                                         </div>
 
-                                        <div className="">
-                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
-                                                <div className=" ">
-                                                    <img  className=" m-auto " width="80"  src="./images/skils_logo/canva.png" alt="" />
-                                                </div>
-                                            
-                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
-                                                    Canva
-                                                </p>
-                                            </div>
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Laravel Modules</p>
                                         </div>
-                                        <div className="">
-                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3  ">
-                                                <div className="">
-                                                    <img  className=" m-auto " width="80"  src="./images/skils_logo/nodejs.png" alt="" />
-                                                </div>
-                                          
-                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
-                                                    Node Js
-                                                </p>
-                                            </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Livewire</p>
                                         </div>
-                                        <div className="">
-                                            <div className="services-cart bg-[#0808080a] rounded-xl p-3 ">
-                                                <div className="">
-                                                    <img  className=" m-auto " width="80" src="./images/skils_logo/php.png" alt="" />
-                                                </div>
-                                                <p className="font-Syne fw-bold mb-0 text-[20px] text-center">
-                                                    Php
-                                                </p>
-                                            </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Node.js</p>
                                         </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Node.js + TypeScript</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">PHP</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">MySQL</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">PostgreSQL</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">MongoDB</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">WordPress</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">HTML5</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">CSS3</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">JavaScript</p>
+                                        </div> 
+                                        
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">JQuery</p>
+                                        </div>
+                                        
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                                <p className="font-Syne font-bold text-[16px] mb-0">Express.js</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Tailwind CSS</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Bootstrap</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Git</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Postman</p>
+                                        </div>
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                                <p className="font-Syne font-bold text-[16px] mb-0">GraphQL +</p>
+                                        </div>
+
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                            <p className="font-Syne font-bold text-[16px] mb-0">Canva</p>
+                                        </div>
+                                        
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                                <p className="font-Syne font-bold text-[16px] mb-0">AWS</p>
+                                        </div> 
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                                <p className="font-Syne font-bold text-[16px] mb-0">Vercel</p>
+                                        </div>
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                                <p className="font-Syne font-bold text-[16px] mb-0">Nginx / Apache</p>
+                                        </div>
+                                        <div className="services-cart bg-[#0808080a] rounded-xl p-3 text-center hover:bg-[#0808081a] transition-all duration-300">
+                                                <p className="font-Syne font-bold text-[16px] mb-0">System Design basics for web apps</p>
+                                        </div>
+
                                     </div>
 
 

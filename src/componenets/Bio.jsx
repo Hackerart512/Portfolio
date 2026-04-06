@@ -24,7 +24,7 @@ const Bio = () => {
                                         <p className='font-Poppins mb-0'>Award Winner</p>
                                     </li>
                                     <li>
-                                        <span className="font-Syne fw-bold text-[30px]">1.3</span>
+                                        <span className="font-Syne fw-bold text-[30px]">2</span>
                                         <p className='font-Poppins mb-0'>Year Of Experiance</p>
                                     </li>
                                     <li>

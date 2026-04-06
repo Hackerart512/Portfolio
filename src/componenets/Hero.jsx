@@ -67,7 +67,7 @@ const Hero = () => {
 
                                     <div className='flex items-center'>
                                         <span className="client-couter font-Syne fw-bold text-[30px] ">
-                                            1+
+                                            2+
                                         </span>
 
                                         <span className="md:mx-3">Year of Experiance</span>

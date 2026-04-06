@@ -58,12 +58,6 @@ const cards = [
         desc: "A luxury apartment in the city center.",
     },
     {
-        id: 10,
-        title: "Wordpress Monisa",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-        desc: "A luxury apartment in the city center.",
-    },
-    {
         id: 11,
         title: "Naruto CRM",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
@@ -74,6 +68,12 @@ const cards = [
         title: "Video Edit reel",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
         desc: "A luxury apartment in the city center.",
+    },
+    {
+        id: 12,
+        title: "Elmond LMS Portal",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        desc: "LMS Portal",
     },
 
 ];

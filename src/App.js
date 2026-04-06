@@ -16,6 +16,7 @@ import Demo from "./pages/Demo";
 import Contact from "./pages/Contact";
 import BlogShow from "./pages/BlogShow";
 import Portfolio from "./pages/Portfolio";
+import MonisaERP from "./pages/Portfolios/MonisaErpPortal";
 
 // React Router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -29,6 +30,10 @@ function App() {
     { path: "/contact", element: <Contact /> },
     { path: "/blog", element: <BlogShow /> },
     { path: "/work/:id", element: <Portfolio /> },
+
+
+    { path: "/portfolio/monisa-erp", element: <MonisaERP /> },
+
   ];
 
   // Create router with future flags

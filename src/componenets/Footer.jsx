@@ -13,7 +13,7 @@ const footer = () => {
                             </h3>
                             <div className="hero-network my-3 md:my-5 flex items-center text-white">
                                 <span className="client-couter font-Syne fw-bold text-[30px] ">
-                                    1+
+                                    2+
                                 </span>
                                 <span className="mx-3">Year of Experiance</span>
                                 <span className="mx-8">
