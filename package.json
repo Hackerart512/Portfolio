@@ -13,6 +13,7 @@
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.8",
+    "caniuse-lite": "^1.0.30001787",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.23.24",
     "gsap": "^3.13.0",
@@ -47,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "baseline-browser-mapping": "^2.10.16"
   }
 }
