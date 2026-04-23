@@ -105,7 +105,7 @@ const Resume = () => {
                                         <div className="d-flex items-center">
                                             <p className="text-[16px] md:text-[20px] mfont-Poppins   md:w-[30%]">Phone</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                8302088852
+                                               +91 8302088852
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
@@ -131,7 +131,7 @@ const Resume = () => {
                                             <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Language
                                             </p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                8302088852
+                                                English, Hindi
                                             </span>
                                         </div>
                                     </div>

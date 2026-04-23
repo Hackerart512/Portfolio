@@ -21,7 +21,7 @@ const KpiLmsPortal = () => {
       subtitle="A unified performance and learning management system built for enterprise visibility, employee growth, and data-driven decision making."
       description="This portal combines KPI dashboards, role-based permissions, and LMS training modules into one polished SaaS experience."
       heroImage="/images/kpi_lms/kpi_thumbnail.png"
-      tags={["Laravel", "MySQL", "Performance", "LMS"]}
+      tags={["Laravel", "MySQL", "LMS", "Employee Training", "KPI Tracking", "Role-based Access", "Analytics", "User Experience", "Responsive Design", "Security", "Scalability", "Custom Reporting", "Progress Tracking", "Training Management", "Employee Engagement", "User-friendly Interface", "Exportable Reports", "Secure Access Control", "Role-based Permissions", "Employee Performance", "Learning Management System", "KPI Tracking", "Employee Training"]}
       gallery={gallery}
       bgColor="#e8f7ff"
     >

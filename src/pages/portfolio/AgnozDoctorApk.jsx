@@ -1,5 +1,7 @@
 import React from "react";
 import PortfolioPageLayout from "./PortfolioPageLayout";
+import { agnozGallery } from "./AgnozGallery";
+
 
 const AgnozDoctorApk = () => {
   return (
@@ -8,35 +10,163 @@ const AgnozDoctorApk = () => {
       subtitle="A modern healthcare application for doctor consultations, patient records, and medical service delivery."
       description="Built for mobile patients and providers, the Agnoz app focuses on fast access to care, appointment tracking, and medical reporting."
       heroImage="/images/Agnoz C-R/thumbnail/agnoz_thumbnail.png"
-      tags={["Android", "Healthcare", "Appointment"]}
+      tags={["Android", "Node.js",  "MongoDB", "Socket.io", "Twilio", "Agora", "AI Prediction",  "WHO API", "Astrology API", "cloudinary", "Razorpay Api", "Push Notification", "Firebase Cloud Authentication", "AI Report Generator", "Google Map API", "Telemedicine", "Medical App", "Doctor Consultation", "Patient Records", "Healthcare Technology", "Mobile Health App", "Medical Reporting", "AI in Healthcare", "Real-Time Communication", "Secure Authentication", "Payment Integration", "Medical Appointment Booking", "Health Tracking", "Remote Patient Monitoring", "Medical AI Prediction", "WHO Health API", "Astrology Health Insights", "Cloud Storage for Medical Data", "Razorpay for Healthcare Payments", "Push Notifications for Appointments", "Firebase Authentication for Healthcare Apps", "AI Report Generation for Doctors", "Google Maps API for Healthcare Services"]}
       bgColor="#fff7ed"
+      gallery={agnozGallery}
+      
     >
+    
+
       <section className="space-y-10">
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">Doctor Appointments Simplified</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Agnoz Doctor APK offers a clean appointment booking experience, patient onboarding,
-            and clinic management features to drive faster consultation cycles.
-          </p>
+        <div className="space-y-6">
+ 
+          <div>
+            <h2 className="text-2xl font-semibold mb-3">
+              Doctor Appointments Simplified
+            </h2>
+            <p className="text-gray-700 leading-relaxed">
+              A <span className="font-medium">full-stack healthcare communication system</span> designed to connect
+              patients and doctors in real-time. This platform provides a seamless experience for online consultation
+              using <strong>chat, voice, and video communication</strong>, along with secure payments and advanced features
+              to enhance digital healthcare services.
+            </p>
+          </div>
+
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Technologies Used</h2>
+            <ul className="list-disc pl-5 text-gray-700 space-y-1">
+              <li><strong>Frontend:</strong> Flutter (Patient App & Doctor App)</li>
+              <li><strong>Backend:</strong> Node.js with Socket.io</li>
+              <li><strong>Database:</strong> MongoDB</li>
+              <li><strong>Real-time Communication:</strong> Agora (Voice & Video Calling)</li>
+              <li><strong>Authentication:</strong> Firebase, MSG91 OTP, Gmail SMTP API</li>
+              <li><strong>Payments:</strong> Razorpay Payment Gateway</li>
+              <li><strong>Storage:</strong> Cloudinary</li>
+              <li><strong>Other Integrations:</strong> Google Maps API, Push Notifications, AI Prediction, WHO API, Astrology API, AI Report Generator</li>
+            </ul>
+          </div>
+
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Key Features</h2>
+            <ul className="list-disc pl-5 text-gray-700 space-y-2">
+              <li>
+                <strong>Multi-Platform System:</strong> Includes Patient App, Doctor App, and Web Admin Panel.
+              </li>
+              <li>
+                <strong>Real-Time Communication:</strong> Supports chat, voice calls, and video calls with per-minute billing.
+              </li>
+              <li>
+                <strong>Doctor Availability Control:</strong> Doctors can toggle online/offline mode to manage visibility.
+              </li>
+              <li>
+                <strong>Smart Booking System:</strong> Patients can send appointment requests that doctors can accept.
+              </li>
+              <li>
+                <strong>Chat Request Flow:</strong> Communication starts only after doctor approval.
+              </li>
+              <li>
+                <strong>Prescription Management:</strong> Doctors can write and share prescriptions digitally.
+              </li>
+              <li>
+                <strong>Nearby Doctor Search:</strong> Integrated Google Maps API with filtering options.
+              </li>
+              <li>
+                <strong>Secure Login System:</strong> OTP verification and email authentication.
+              </li>
+              <li>
+                <strong>Astro Api:</strong> Predict health conditions based on astrology and provide insights.
+              </li>
+              <li>
+                <strong>AI Report Generator:</strong> Automated generation of medical reports using AI.
+              </li>
+              <li><strong>Genetic Result:</strong> Display and analyze genetic test results.</li>
+            </ul>
+          </div>
+
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Payment & Monetization</h2>
+            <p className="text-gray-700 leading-relaxed">
+              The platform uses a <strong>coin-based system</strong> where patients purchase
+              <span className="font-medium text-blue-600">Doctor Coins</span> via Razorpay.
+              These coins are deducted <strong>per minute</strong> during consultations based on the doctor's pricing.
+            </p>
+            <ul className="list-disc pl-5 text-gray-700 space-y-1 mt-2">
+              <li>Secure payment gateway integration with GST invoice generation</li>
+              <li>Transparent pricing set by individual doctors</li>
+              <li>Multiple communication modes with different coin rates</li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Advanced & Social Features</h2>
+            <ul className="list-disc pl-5 text-gray-700 space-y-2">
+              <li>
+                <strong>Doctor Referral System:</strong> Doctors can refer patients to other specialists.
+              </li>
+              <li>
+                <strong>Doctor Networking:</strong> Friend request system between doctors.
+              </li>
+              <li>
+                <strong>Ratings & Reviews:</strong> Patients can review doctors after each consultation.
+              </li>
+              <li>
+                <strong>Feedback System:</strong> Feedback collected after every call session.
+              </li>
+              <li>
+                <strong>Reward System:</strong> Patients can send <span className="text-red-500">hearts</span>
+                to doctors, each with a predefined coin value.
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold mb-2">Project Impact</h2>
+            <p className="text-gray-700 leading-relaxed">
+              This platform delivers a <strong>scalable and secure digital healthcare solution</strong>,
+              enabling instant access to medical professionals. By combining real-time communication,
+              smart booking, and digital payments, it significantly improves the efficiency and
+              accessibility of healthcare services.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-xl font-semibold mb-3">FAQs</h2>
+
+            <div className="space-y-3 text-gray-700">
+              <p>
+                <strong>Q1: What platforms are included in this project?</strong><br />
+                A: The system includes a Patient Mobile App, Doctor Mobile App, and a Web Admin Panel.
+              </p>
+
+              <p>
+                <strong>Q2: How does real-time communication work?</strong><br />
+                A: It uses Socket.io for chat and Agora for high-quality voice and video calls.
+              </p>
+
+              <p>
+                <strong>Q3: How are payments handled?</strong><br />
+                A: Payments are processed via Razorpay using a coin-based system with per-minute deduction.
+              </p>
+
+              <p>
+                <strong>Q4: Can doctors manage their availability?</strong><br />
+                A: Yes, doctors can toggle online/offline status anytime from their app.
+              </p>
+
+              <p>
+                <strong>Q5: Is there a referral feature?</strong><br />
+                A: Yes, doctors can refer patients to other doctors within the platform.
+              </p>
+            </div>
+          </div>
+
         </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">Patient Record Management</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Patients can store medical documents, view lab results, and share health information
-            with their care team through the secure app interface.
-          </p>
-        </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">Trusted Care for the Mobile User</h2>
-          <ul className="list-disc ml-6 space-y-2 text-gray-700">
-            <li>Easy doctor discovery and appointment scheduling</li>
-            <li>Automated reminders and consultation follow-ups</li>
-            <li>Clinical notes and prescription access on demand</li>
-          </ul>
-        </div>
       </section>
+
     </PortfolioPageLayout>
   );
 };
