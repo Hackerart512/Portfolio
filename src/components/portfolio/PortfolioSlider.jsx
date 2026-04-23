@@ -49,14 +49,14 @@ const PortfolioSlider = () => {
                                 }}
                                     src={card.image}
                                     alt={card.title}
-                                    className="h-60 w-full object-cover"
+                                    className=" w-full object-cover"
                                 />
                             </div>
 
                             <div className="p-4 pt-0">
                                 <h5 className="font-Syne fw-bold flex justify-between  ">{card.title}</h5>
                                 {/* 🏷️ Tags */}
-                                <div className="flex flex-wrap gap-2">
+                                {/* <div className="flex flex-wrap gap-2">
                                     {card.tag?.map((t, index) => (
                                         <span
                                             key={index}
@@ -65,10 +65,10 @@ const PortfolioSlider = () => {
                                             {t}
                                         </span>
                                     ))}
-                                </div>
+                                </div> */}
                                 <Link
                                     to={`/portfolio/${card.slug}`}
-                                    className="text-center m-auto w-100 inline-block mt-4 bg-[#ff9330] text-white px-4 py-2  hover:bg-[#000000] hover:text-[#ff9330] rounded-full"
+                                    className="text-center m-auto w-100 inline-block bg-[#ff9330] text-white px-4 py-2  hover:bg-[#000000] hover:text-[#ff9330] rounded-full"
                                 >
                                     View Details
                                 </Link>

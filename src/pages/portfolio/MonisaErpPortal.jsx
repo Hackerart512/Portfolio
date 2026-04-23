@@ -1,11 +1,6 @@
 import React from "react";
-
-import Navbar from '../../components/common/Navbar'
-import Footer from '../../components/common/Footer'
-import GalleryLightbox from '../../components/portfolio/GalleryLightbox'
-import { Link } from 'react-router-dom';
 import PortfolioPageLayout from "./PortfolioPageLayout";
-import { Helmet } from 'react-helmet-async'
+ 
 
 const MonisaErpPortalPage = () => {
 
@@ -13,8 +8,6 @@ const MonisaErpPortalPage = () => {
 
     return (
         <>
-
-
             <PortfolioPageLayout
                 title="Monisa Freelancing Portal"
                 subtitle="A role-based web platform designed to manage freelancers, projects, and revenue efficiently with automated workflows, digital verification, and analytics."

@@ -19,7 +19,7 @@ const cards = [
     },
     {
         id: 3,
-        title: "Doctogon doctor patient App",
+        title: "Doctogon Doctor Patient App",
         image: "/images/Doctocon/thumbnail/doctocon_thumbnail.png",
         desc: "A luxury apartment in the city center.",
         tag: ['Node.js', 'MongoDB', 'Socket.io', 'Agora video calling', 'Razorpay'],
@@ -27,7 +27,7 @@ const cards = [
     },
     {
         id: 4,
-        title: "Agnoz Doctor apk",
+        title: "Agnoz Doctor Patient Application",
         image: "/images/Agnoz C-R/thumbnail/agnoz_thumbnail.png",
         desc: "A luxury apartment in the city center.",
         tag: ['Node.js',  'MongoDB', 'Socket.io', 'Twilio', 'Agora', 'AI Prediction',  'WHO API', 'Astrology API'],
@@ -35,11 +35,11 @@ const cards = [
     },
     {
         id: 5,
-        title: "Baby Land apk",
-        image: "/images/Baby Land/thumbnail/baby_land_thumbnail.png",
+        title: "Baby Land AI Prediction Applicatoin",
+        image: "/images/Babyland-AI Health app/thumbnail/photo.png",
         desc: "A luxury apartment in the city center.",
         slug: 'baby-land-apk',
-        tag: ['Node.js', 'Express.js', 'MongoDB', 'Twilio', 'Agora', 'cloudinary', 'Razorpay Api', 'Push Notification', 'Firebase Cloud Authentication', 'AI Prediction', 'Ai Chat', 'Periods Tracker', 'Pragnacy Tracker', 'BabyGrowth Tracker'],
+        tag: ['Node.js',   'MongoDB', 'Twilio', 'Agora',  'Razorpay Api', 'Ai Chat',   'Ai Tracker'],
     },
     {
         id: 6,

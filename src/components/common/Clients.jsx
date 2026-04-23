@@ -38,12 +38,12 @@ const Clients = () => {
         <div className="row mt-6 gap-4">
           {clients.map(client => (
             <div key={client.name} className="col-lg-3 col-md-6 col-12">
-              <div className="client-card bg-white rounded-[20px] p-5 shadow-[0_20px_50px_rgba(8,8,8,0.08)] h-full">
-                <div className="client-logo mb-5 flex h-[90px] w-full items-center justify-center rounded-[18px] bg-[#fdf2e6]">
+              <div className="client-card bg-white rounded-[20px] p-4 shadow-[0_20px_50px_rgba(8,8,8,0.08)] h-full">
+                <div className="p-3 client-logo mb-3 flex h-[90px] w-full items-center justify-center rounded-[18px] bg-[#fdf2e6]">
                   <img src={client.image} alt={client.alt} className="max-h-[60px] object-contain" />
                 </div>
                 <h5 className="font-Syne fw-bold text-[18px] mb-2">{client.name}</h5>
-                <p className="text-[15px] font-Syne text-[#08080899] leading-relaxed">{client.description}</p>
+                <p className="mb-0 text-[15px] font-Syne text-[#08080899] leading-relaxed">{client.description}</p>
               </div>
             </div>
           ))}
