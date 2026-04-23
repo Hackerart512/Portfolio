@@ -20,7 +20,7 @@ const cards = [
     {
         id: 3,
         title: "Doctogon Doctor Patient App",
-        image: "/images/Doctocon/thumbnail/doctocon_thumbnail.png",
+        image: "/images/Doctocon/thumbnail/photo.png",
         desc: "A luxury apartment in the city center.",
         tag: ['Node.js', 'MongoDB', 'Socket.io', 'Agora video calling', 'Razorpay'],
         slug: 'doctogon-doctor-patient-app'

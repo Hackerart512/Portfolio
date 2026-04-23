@@ -8,7 +8,7 @@ const DoctogonDoctorPatientApp = () => {
       title="DoctoGon Doctor-Patient App"
       subtitle="A mobile-first clinical collaboration platform connecting patients with doctors, appointments, and care workflows."
       description="Designed for convenient teleconsultation, this app streamlines booking, prescription management, and patient follow-up."
-      heroImage="/images/Doctocon/thumbnail/doctocon_thumbnail.png"
+      heroImage="/images/Doctocon/thumbnail/photo.png"
       gallery={doctoConGallery}
       tags={["Healthcare", "Flutter", "Agora video calling", "Socket.io chatting", "per min coin deduction", "Admin platform fee", "Doctor Friend", "Windral Management", "Patient referral Management", "Login with referral", "Telehealth", "Patient Care", "Doctor Workflow", "Appointment Management", "Prescription Management", "Remote Care", "Secure Messaging", "Appointment Reminders", "Real-Time Notifications", "Treatment Notes", "Doctor-Patient Communication", "Remote Healthcare Solutions", "Medical Appointment Booking"]}
       bgColor="#eef9f3"
