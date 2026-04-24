@@ -12,8 +12,6 @@ const Navbar = (props) => {
 
     return (
         <>
-
-
             <header className={`bg-[${props.bg_color}]`}>
                 <div className="container-fluid">
                     <div className="py-3 mx-4" style={{ "borderBottom": "1px solid #958b8b" }}>
@@ -21,7 +19,7 @@ const Navbar = (props) => {
                             <div className=''>
                                 <Link to="/">
                                     <div className="logo flex align-items-center justify-center flex-col">
-                                        <img width="50" src="/images/logo.png" alt="logo" />
+                                        <img width="50" src="/images/asdflogo.png" alt="logo" />
                                         <span className="text-black text-center block font-Syne fw-bold">DevPavan</span>
                                     </div>
                                 </Link>
@@ -29,7 +27,7 @@ const Navbar = (props) => {
                             <div className=''>
                                 <div className="menu-bar">
                                     <div className="flex items-center justify-between">
-                                    <a href="tel:8302088852" className="contact-link">
+                                        <a href="tel:8302088852" className="contact-link">
                                             <div className="font-bold flex items-center">
                                                 Let's Talk
                                                 <span className="animate-arrow-up pl-2">
@@ -40,7 +38,6 @@ const Navbar = (props) => {
                                                 </span>
                                             </div>
                                         </a>
-
                                         <div className="ml-4">
                                             <div className={`hamburger ${humburgerToggle ? 'active' : ''}`} onClick={toggleIcon}>
                                                 <span className="hamburger-line"></span>
@@ -53,7 +50,6 @@ const Navbar = (props) => {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </header>
 
@@ -63,10 +59,10 @@ const Navbar = (props) => {
                     <div className="col-lg-12 bg-[black]">
                         <div className="side-bar-header flex justify-between items-center py-3 px-4">
                             <div className="">
-                            <div className="logo flex align-items-center justify-center flex-col">
-                                        <img width="50" src="/images/logo_light.png" alt="logo" />
-                                        <span className="text-[#ff9330] text-center block font-Syne fw-bold">DevPavan</span>
-                                    </div>
+                                <div className="logo flex align-items-center justify-center flex-col">
+                                    <img width="50" src="/images/logo_light.png" alt="logo" />
+                                    <span className="text-[#ff9330] text-center block font-Syne fw-bold">DevPavan</span>
+                                </div>
                             </div>
                             <div className="">
                                 <div className="ml-4">
@@ -78,7 +74,6 @@ const Navbar = (props) => {
                                 </div>
                             </div>
                         </div>
-
                         <div className="sidebar-body px-4 mt-10 h-[100vh]">
                             <ul className='m-0 p-0'>
                                 <li >
@@ -93,7 +88,6 @@ const Navbar = (props) => {
                                     </Link>
                                 </li>
                                 <li>
-
                                     <Link className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to="/about-us">
                                         About
                                         <span className="animate-arrow-up pl-2">
@@ -103,7 +97,6 @@ const Navbar = (props) => {
                                             </svg>
                                         </span>
                                     </Link>
-
                                 </li>
                                 <li>
                                     <Link className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to='/services'>
@@ -115,10 +108,9 @@ const Navbar = (props) => {
                                             </svg>
                                         </span>
                                     </Link>
-
                                 </li>
                                 <li>
-                                    <Link className='contact-linkpy-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to='/project'>
+                                    <Link className='contact-linkpy-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to='/portfolios'>
                                         Project
                                         <span className="animate-arrow-up pl-2">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,13 +119,10 @@ const Navbar = (props) => {
                                             </svg>
                                         </span>
                                     </Link>
-
                                 </li>
-                              
-                                <li >
-
-                                    <Link className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to="/blog">
-                                    Blog
+                                <li>
+                                    <Link className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to="/blogs">
+                                        Blog
                                         <span className="animate-arrow-up pl-2">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M7 17L17 7" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -141,11 +130,9 @@ const Navbar = (props) => {
                                             </svg>
                                         </span>
                                     </Link>
-                                
-
                                 </li>
                                 <li >
-                                    <Link  className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to="/contact">
+                                    <Link className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to="/contact">
                                         Contact
                                         <span className="animate-arrow-up pl-2">
                                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +141,6 @@ const Navbar = (props) => {
                                             </svg>
                                         </span>
                                     </Link>
-
                                 </li>
                             </ul>
                         </div>
@@ -164,5 +150,4 @@ const Navbar = (props) => {
         </>
     )
 }
-
 export default Navbar

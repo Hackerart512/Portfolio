@@ -42,8 +42,8 @@ const Hero = () => {
                                             Let's Talk
                                             <span className="animate-arrow-up pl-2">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    <path d="M7 17L17 7" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                                                    <path d="M7 7H17V17" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                                                 </svg>
                                             </span>
                                         </div>
@@ -54,8 +54,8 @@ const Hero = () => {
                                             My Work
                                             <span className="animate-arrow-up pl-2">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                    <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                    <path d="M7 17L17 7" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                                                    <path d="M7 7H17V17" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                                                 </svg>
                                             </span>
                                         </div>
@@ -73,7 +73,7 @@ const Hero = () => {
                                         <span className="md:mx-3">Year of Experiance</span>
                                         <span className="mx-8">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="2" height="14" viewBox="0 0 2 14" fill="none">
-                                                <path d="M1 0L1 14" stroke="#080808" stroke-opacity="0.4"></path>
+                                                <path d="M1 0L1 14" stroke="#080808" strokeOpacity="0.4"></path>
                                             </svg>
                                         </span>
                                     </div>
@@ -114,7 +114,7 @@ const Hero = () => {
                         </div>
 
                         <div className="col-lg-6">
-                            <img style={{ "aspect-ratio": "1/1", objectFit: "contain" }} src="/images/profile/profile-boy.png" className="h-100 w-100" alt="" title="" decoding="async" />
+                            <img style={{ aspectRatio: "1/1", objectFit: "contain" }} src="/images/profile/profile-boy.png" className="h-100 w-100" alt="" title="" decoding="async" />
                         </div>
                     </div>
                 </div>

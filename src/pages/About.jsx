@@ -37,15 +37,15 @@ const About = () => {
                             <div className="my-personal-content">
                                 <ul className='p-0 flex items-center flex-wrap gap-3 md:gap-4 '>
                                     <li >
-                                        <span className="font-Syne fw-bold text-[30px]">08</span>
-                                        <p className='font-Poppins mb-0'>Award Winner</p>
+                                        <span className="font-Syne fw-bold text-[30px]">12</span>
+                                        <p className='font-Poppins mb-0'>Project</p>
                                     </li>
                                     <li>
-                                        <span className="font-Syne fw-bold text-[30px]">1.3</span>
+                                        <span className="font-Syne fw-bold text-[30px]">2</span>
                                         <p className='font-Poppins mb-0'>Year Of Experiance</p>
                                     </li>
                                     <li>
-                                        <span className="font-Syne fw-bold text-[30px]">3.1</span>
+                                        <span className="font-Syne fw-bold text-[30px]">2</span>
                                         <p className='font-Poppins mb-0'>Year Of Hand on Experiance</p>
                                     </li>
 
@@ -56,7 +56,7 @@ const About = () => {
 
                         <div className="col-lg-6">
                             <div className="pl-md-5">
-                                <span className='d-block relative font-Syne fw-bold text-[30px] md:text-[60px] before:content-[""] before:absolute before:h-[30px] md:before:h-[70px] before:w-[30px] md:before:w-[70px] before:bg-[#FFB646] before:top-1 before:rounded-full before:z-[-1]'>1.3+</span>
+                                <span className='d-block relative font-Syne fw-bold text-[30px] md:text-[60px] before:content-[""] before:absolute before:h-[30px] md:before:h-[70px] before:w-[30px] md:before:w-[70px] before:bg-[#FFB646] before:top-1 before:rounded-full before:z-[-1]'>2+</span>
 
                                 <span className="strock-text">
                                     Years of <br />

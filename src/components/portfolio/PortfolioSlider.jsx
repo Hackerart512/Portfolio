@@ -28,24 +28,24 @@ const PortfolioSlider = () => {
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 spaceBetween={25}
-                slidesPerView={3}
-                // navigation
-                // autoplay={{ delay: 2500, disableOnInteraction: false }}
+                slidesPerView={4}
+                navigation
+                autoplay={{ delay: 2500, disableOnInteraction: false }}
                 breakpoints={{
                     320: { slidesPerView: 1 },
                     640: { slidesPerView: 2 },
-                    1024: { slidesPerView: 3 },
+                    1024: { slidesPerView: 4 },
                 }}
                 className="pb-12"
             >
                 {cards.map((card) => (
                     <SwiperSlide key={card.id}>
                         <div style={{ "boxShadow": "0 0 10px #d2d2d2" }} className="rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300">
-
                             <div className="imageContain p-3">
                                 <img style={{
-                                    "border": "1px solid #d7d7d7",
-                                    "border-radius": "11px"
+                                    border: "1px solid #d7d7d7",
+                                    borderRadius: "11px",
+                                    aspectRatio: "1/1"
                                 }}
                                     src={card.image}
                                     alt={card.title}
@@ -54,7 +54,7 @@ const PortfolioSlider = () => {
                             </div>
 
                             <div className="p-4 pt-0">
-                                <h5 className="font-Syne fw-bold flex justify-between  ">{card.title}</h5>
+                                <p className="font-bold">{card.title}</p>
                                 {/* 🏷️ Tags */}
                                 {/* <div className="flex flex-wrap gap-2">
                                     {card.tag?.map((t, index) => (

@@ -15,6 +15,7 @@ import About from "./pages/About";
 import Demo from "./pages/Demo";
 import Contact from "./pages/Contact";
 import BlogShow from "./pages/BlogShow";
+import Blog from "./pages/Blog";
 import Services from "./pages/Services";
 import WebDevelopment from "./pages/services/WebDevelopment";
 import WebsiteSeo from "./pages/services/WebsiteSeo";
@@ -33,6 +34,7 @@ import WordpressMonisa from "./pages/portfolio/WordpressMonisa";
 import NarutoCrm from "./pages/portfolio/NarutoCrm";
 import VideoEditReel from "./pages/portfolio/VideoEditReel";
 import ElmondLmsPortal from "./pages/portfolio/ElmondLmsPortal";
+import Blog1 from "./pages/blogs/Blog1"; 
 
 // React Router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -49,8 +51,12 @@ function App() {
     { path: "/services/lead-generation", element: <LeadGeneration /> },
     { path: "/demo", element: <Demo /> },
     { path: "/contact", element: <Contact /> },
-    { path: "/blog", element: <BlogShow /> },
-    { path: "/work/:id", element: <Portfolio /> },
+    { path: "/blogs", element: <Blog /> },
+
+    // { path: "/blog", element: <BlogShow /> },
+    { path: "/blog/right-lo-left-behind-development-in-mobile-web-design", element: <Blog1/> },
+
+    { path: "/portfolios", element: <Portfolio /> },
     { path: "/portfolio/monisa-freelancing-portal", element: <MonisaERP /> },
     { path: "/portfolio/kpi-lms-portal", element: <KpiLmsPortal /> },
     { path: "/portfolio/doctogon-doctor-patient-app", element: <DoctogonDoctorPatientApp /> },

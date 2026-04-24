@@ -2,9 +2,8 @@ const cards = [
     {
         id: 1,
         title: "Monisa Freelancing Portal",
-        image: "/images/Freelancer_monisa/photo.png",
+        image: "/images/Freelancer_monisa/photo3.png",
         desc: "A luxury apartment in the city center.",
-        gallery: ['/images/Freelancer_monisa/gallery/1.jpg', '/images/Freelancer_monisa/gallery/2.jpg', '/images/Freelancer_monisa/gallery/3.jpg', '/images/Freelancer_monisa/gallery/4.jpg', '/images/Freelancer_monisa/gallery/5.jpg', '/images/Freelancer_monisa/gallery/6.jpg', '/images/Freelancer_monisa/gallery/7.jpg', '/images/Freelancer_monisa/gallery/8.jpg', '/images/Freelancer_monisa/gallery/9.jpg', '/images/Freelancer_monisa/gallery/10.jpg', '/images/Freelancer_monisa/gallery/11.jpg', '/images/Freelancer_monisa/gallery/12.jpg', '/images/Freelancer_monisa/gallery/13.jpg', '/images/Freelancer_monisa/gallery/14.jpg', '/images/Freelancer_monisa/gallery/15.jpg', '/images/Freelancer_monisa/gallery/16.jpg', '/images/Freelancer_monisa/gallery/17.jpg', '/images/Freelancer_monisa/gallery/18.jpg', '/images/Freelancer_monisa/gallery/20.jpg', '/images/Freelancer_monisa/gallery/21.jpg', '/images/Freelancer_monisa/gallery/22.jpg', '/images/Freelancer_monisa/gallery/23.jpg', '/images/Freelancer_monisa/gallery/24.jpg', '/images/Freelancer_monisa/gallery/25.jpg', '/images/Freelancer_monisa/gallery/26.jpg', '/images/Freelancer_monisa/gallery/27.jpg', '/images/Freelancer_monisa/gallery/28.jpg'],
         tag: ['Core PHP', 'MySql', 'Adobe Singature', 'SMTP Mail', 'Crons'],
         slug: 'monisa-freelancing-portal'
     },
@@ -13,7 +12,6 @@ const cards = [
         title: "KPI & LMS Portal",
         image: "/images/kpi_lms/kpi_thumbnail.png",
         desc: "A luxury apartment in the city center.",
-        gallery: ['/images/kpi_lms/gallery/kpi_thumbnail3.png', '/images/kpi_lms/gallery/kpi_thumbnail2.png', '/images/kpi_lms/gallery/1.jpg', '/images/kpi_lms/gallery/2.jpg', '/images/kpi_lms/gallery/3.jpg', '/images/kpi_lms/gallery/4.jpg', '/images/kpi_lms/gallery/5.jpg', '/images/kpi_lms/gallery/6.jpg', '/images/kpi_lms/gallery/7.jpg', '/images/kpi_lms/gallery/8.jpg', '/images/kpi_lms/gallery/9.jpg', '/images/kpi_lms/gallery/10.jpg', '/images/kpi_lms/gallery/11.jpg', '/images/kpi_lms/gallery/12.jpg', '/images/kpi_lms/gallery/13.jpg', '/images/kpi_lms/gallery/14.jpg', '/images/kpi_lms/gallery/15.jpg', '/images/kpi_lms/gallery/16.jpg', '/images/kpi_lms/gallery/17.jpg', '/images/kpi_lms/gallery/18.jpg', '/images/kpi_lms/gallery/20.jpg', '/images/kpi_lms/gallery/21.jpg', '/images/kpi_lms/gallery/22.jpg', '/images/kpi_lms/gallery/23.jpg', '/images/kpi_lms/gallery/24.jpg', '/images/kpi_lms/gallery/25.jpg', '/images/kpi_lms/gallery/26.jpg', '/images/kpi_lms/gallery/27.jpg', '/images/kpi_lms/gallery/28.jpg',],
         tag: ['Laravel', 'MySql', 'SMTP Mail', 'Chart.js', 'Crons'],
         slug: 'kpi-lms-portal'
     },
@@ -44,53 +42,64 @@ const cards = [
     {
         id: 6,
         title: "SwiftGo backend",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'swiftgo-backend'
     },
     {
         id: 7,
         title: "Proptalk hotel booking website",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'proptalk-hotel-booking-website'
     },
     {
         id: 8,
         title: "Instadham yatra apk",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'instadham-yatra-apk'
     },
     {
         id: 9,
         title: "Wordpress Monisa",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'wordpress-monisa'
     },
     {
         id: 11,
         title: "Naruto CRM",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'naruto-crm'
     },
     {
         id: 12,
         title: "Video Edit reel",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'video-edit-reel'
     },
     {
         id: 12,
         title: "Elmond LMS Portal",
-        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+        image: "/images/thumnail_miss.webp",
         desc: "LMS Portal",
         slug: 'elmond-lms-portal'
     },
 
+];
+
+const blogs = [
+    {
+        id: 1,
+        title: "Right-lo-left behind development in mobile web design",
+        image: "/images/car.jpg",
+        desc: "A luxury apartment in the city center.",
+        slug: 'right-lo-left-behind-development-in-mobile-web-design',
+        release: '19 January 2024'
+    },
 ];
 
 // Simulated API call (like fetching from a server)
@@ -100,6 +109,16 @@ export const getCards = async () => {
         return cards;
     } catch (error) {
         console.error("Error fetching cards:", error);
+        return [];
+    }
+};
+
+export const getBlogs = async () => {
+    try {
+        await new Promise((resolve) => setTimeout(resolve, 500));
+        return blogs;
+    } catch (error) {
+        console.error("Error fetching blogs:", error);
         return [];
     }
 };

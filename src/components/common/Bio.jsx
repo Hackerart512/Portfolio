@@ -6,7 +6,7 @@ const Bio = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <img style={{ "aspect-ratio": "1/1", objectFit: "contain" }} src="/images/profile/officeboy.png" className="h-100 w-100" alt="" title="" decoding="async" />
+                            <img style={{ aspectRatio: "1/1", objectFit: "contain" }} src="/images/profile/officeboy.png" className="h-100 w-100" alt="" title="" decoding="async" />
                         </div>
                         <div className="col-lg-6">
                             <span className="font-Syne fw-bold text-[#ff9330]">Hello I'm</span>

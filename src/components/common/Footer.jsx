@@ -40,7 +40,9 @@ const footer = () => {
                                             </Link>
                                         </li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
+                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/services">
                                             Services
+                                            </Link>
                                         </li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
                                             <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/contact">
@@ -48,13 +50,15 @@ const footer = () => {
                                             </Link>
                                         </li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
-                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/blog">
+                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/blogs">
                                                 Blogs
                                             </Link>
                                         </li>
-                                        <li className=' mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>Skills</li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330] cursor-pointer'>Education</li>
-
+                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
+                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/portfolios">
+                                                Projects
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="col-lg-6">
