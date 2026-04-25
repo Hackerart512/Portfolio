@@ -20,22 +20,9 @@ const SwiftGoBackend = () => {
           </p>
         </div>
 
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">Driver & Order Management</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Built to scale, the backend includes driver availability control, trip history logging,
-            fare calculation, and live status tracking for every assignment.
-          </p>
-        </div>
-
-        <div>
-          <h2 className="text-2xl font-semibold mb-3">Secure Integrations</h2>
-          <ul className="list-disc ml-6 space-y-2 text-gray-700">
-            <li>REST and webhook endpoints for mobile clients</li>
-            <li>Payment gateway support and transaction logging</li>
-            <li>Admin dashboard reports and audit-ready event streams</li>
-          </ul>
-        </div>
+        <ul>
+          <li>swftgo project include, react admin panel, nodejs type script MVC backend, postgress database, </li>
+        </ul>
       </section>
     </PortfolioPageLayout>
   );

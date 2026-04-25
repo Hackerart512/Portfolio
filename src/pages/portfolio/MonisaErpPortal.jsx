@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioPageLayout from "./PortfolioPageLayout";
- 
+
 
 const MonisaErpPortalPage = () => {
 
@@ -13,9 +13,10 @@ const MonisaErpPortalPage = () => {
                 subtitle="A role-based web platform designed to manage freelancers, projects, and revenue efficiently with automated workflows, digital verification, and analytics."
                 description="A role-based web platform designed to manage freelancers, projects, and revenue efficiently with automated workflows, digital verification, and analytics."
                 heroImage="/images/Freelancer_monisa/photo3.png"
-                tags={["Core PHP", "MySQL", "Freelancer", "ERP", "Management System","JWT Authentication", "SMTP / Resend", "eSign API","Role-based Access Control", "Task Management", "Real-time Chat", "Analytics Dashboard","Automated Email Notifications", "Invoice System", "Performance Rating", "Project Workflow", "Digital Signature Verification", "Budget Control", "User Management", "Approval System", "Freelancer Portal", "Project Management", "Task Workflow", "Payment Tracking",   "User Roles", "Access Control",    "Real-time Insights", "Visual Charts", "Revenue Distribution",  "Top-rated Freelancers", "Active Managers", "Freelancer Onboarding", "Task Assignment",   "Rating System",   "Digital Signature Verification", "JWT Authentication",  "eSign API"]}
+                tags={["Core PHP", "MySQL", "Freelancer", "ERP", "Management System", "JWT Authentication", "SMTP / Resend", "eSign API", "Role-based Access Control", "Task Management", "Real-time Chat", "Analytics Dashboard", "Automated Email Notifications", "Invoice System", "Performance Rating", "Project Workflow", "Digital Signature Verification", "Budget Control", "User Management", "Approval System", "Freelancer Portal", "Project Management", "Task Workflow", "Payment Tracking", "User Roles", "Access Control", "Real-time Insights", "Visual Charts", "Revenue Distribution", "Top-rated Freelancers", "Active Managers", "Freelancer Onboarding", "Task Assignment", "Rating System", "Digital Signature Verification", "JWT Authentication", "eSign API"]}
                 gallery={galleries}
                 bgColor="#e8f7ff"
+                link="https://portal.monisaenterprise.com/"
             >
                 <section className=" space-y-10">
                     <div className="mx-auto text-center mb-12">

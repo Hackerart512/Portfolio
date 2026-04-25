@@ -9,7 +9,7 @@ const AgnozDoctorApk = () => {
       title="Agnoz Doctor APK"
       subtitle="A modern healthcare application for doctor consultations, patient records, and medical service delivery."
       description="Built for mobile patients and providers, the Agnoz app focuses on fast access to care, appointment tracking, and medical reporting."
-      heroImage="/images/Agnoz C-R/thumbnail/agnoz_thumbnail.png"
+      heroImage="/images/Agnoz C-R/thumbnail/agnoz_thumbnail.avif"
       tags={["Android", "Node.js",  "MongoDB", "Socket.io", "Twilio", "Agora", "AI Prediction",  "WHO API", "Astrology API", "cloudinary", "Razorpay Api", "Push Notification", "Firebase Cloud Authentication", "AI Report Generator", "Google Map API", "Telemedicine", "Medical App", "Doctor Consultation", "Patient Records", "Healthcare Technology", "Mobile Health App", "Medical Reporting", "AI in Healthcare", "Real-Time Communication", "Secure Authentication", "Payment Integration", "Medical Appointment Booking", "Health Tracking", "Remote Patient Monitoring", "Medical AI Prediction", "WHO Health API", "Astrology Health Insights", "Cloud Storage for Medical Data", "Razorpay for Healthcare Payments", "Push Notifications for Appointments", "Firebase Authentication for Healthcare Apps", "AI Report Generation for Doctors", "Google Maps API for Healthcare Services"]}
       bgColor="#fff7ed"
       gallery={agnozGallery}

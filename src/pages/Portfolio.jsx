@@ -24,7 +24,7 @@ const PortfolioDetailPage = () => {
                             My Portfolios
                         </span>
                         <h1 className="mt-6 text-4xl md:text-5xl font-bold leading-tight text-gray-900">
-                            Hi, I’m Pavan — Frontend Developer
+                            Hi, I’m Pavan — Full Stack Web Developer
                         </h1>
                         <p className="mt-6 text-lg md:text-xl text-gray-700 leading-relaxed">
                             I’m a passionate frontend developer specializing in building high-performance applications with React. I turn ideas into interactive, responsive, and visually appealing digital products

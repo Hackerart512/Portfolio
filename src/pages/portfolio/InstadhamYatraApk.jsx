@@ -10,6 +10,7 @@ const InstadhamYatraApk = () => {
       heroImage="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
       tags={["Travel", "Mobile", "Booking"]}
       bgColor="#eef6ff"
+      link="https://admin.instadham.com/"
     >
       <section className="space-y-10">
         <div>

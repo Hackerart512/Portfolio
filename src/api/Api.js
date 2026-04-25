@@ -18,7 +18,7 @@ const cards = [
     {
         id: 3,
         title: "Doctogon Doctor Patient App",
-        image: "/images/DoctoCon/thumbnail/photo.png",
+        image: "/images/DoctoCon/thumbnail/photo.avif",
         desc: "A luxury apartment in the city center.",
         tag: ['Node.js', 'MongoDB', 'Socket.io', 'Agora video calling', 'Razorpay'],
         slug: 'doctogon-doctor-patient-app'
@@ -26,7 +26,7 @@ const cards = [
     {
         id: 4,
         title: "Agnoz Doctor Patient Application",
-        image: "/images/Agnoz C-R/thumbnail/agnoz_thumbnail.png",
+        image: "/images/Agnoz C-R/thumbnail/agnoz_thumbnail.avif",
         desc: "A luxury apartment in the city center.",
         tag: ['Node.js',  'MongoDB', 'Socket.io', 'Twilio', 'Agora', 'AI Prediction',  'WHO API', 'Astrology API'],
         slug: 'agnoz-doctor-apk'
@@ -34,60 +34,61 @@ const cards = [
     {
         id: 5,
         title: "Baby Land AI Prediction Applicatoin",
-        image: "/images/Babyland-AI Health app/thumbnail/photo.png",
+        image: "/images/Babyland-AI Health app/thumbnail/photo.avif",
         desc: "A luxury apartment in the city center.",
         slug: 'baby-land-apk',
         tag: ['Node.js',   'MongoDB', 'Twilio', 'Agora',  'Razorpay Api', 'Ai Chat',   'Ai Tracker'],
     },
+   
     {
         id: 6,
-        title: "SwiftGo backend",
-        image: "/images/thumnail_miss.webp",
-        desc: "A luxury apartment in the city center.",
-        slug: 'swiftgo-backend'
-    },
-    {
-        id: 7,
-        title: "Proptalk hotel booking website",
-        image: "/images/thumnail_miss.webp",
-        desc: "A luxury apartment in the city center.",
-        slug: 'proptalk-hotel-booking-website'
-    },
-    {
-        id: 8,
-        title: "Instadham yatra apk",
-        image: "/images/thumnail_miss.webp",
-        desc: "A luxury apartment in the city center.",
-        slug: 'instadham-yatra-apk'
-    },
-    {
-        id: 9,
         title: "Wordpress Monisa",
-        image: "/images/thumnail_miss.webp",
+        image: "/images/Monisa wordpress/monisa_thumbnail.avif",
         desc: "A luxury apartment in the city center.",
         slug: 'wordpress-monisa'
     },
     {
-        id: 11,
+        id: 7,
         title: "Naruto CRM",
         image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'naruto-crm'
     },
     {
-        id: 12,
+        id: 8,
         title: "Video Edit reel",
         image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'video-edit-reel'
     },
     {
-        id: 12,
+        id: 9,
         title: "Elmond LMS Portal",
-        image: "/images/thumnail_miss.webp",
+        image: "/images/Elmond/thumbnail/thumb.avif",
         desc: "LMS Portal",
         slug: 'elmond-lms-portal'
     },
+    {
+        id: 10,
+        title: "SwiftGo backend",
+        image: "/images/thumnail_miss.webp",
+        desc: "A luxury apartment in the city center.",
+        slug: 'swiftgo-backend'
+    },
+    {
+        id: 11,
+        title: "Proptalk hotel booking website",
+        image: "/images/thumnail_miss.webp",
+        desc: "A luxury apartment in the city center.",
+        slug: 'proptalk-hotel-booking-website'
+    },
+    {
+        id: 12,
+        title: "Instadham yatra apk",
+        image: "/images/thumnail_miss.webp",
+        desc: "A luxury apartment in the city center.",
+        slug: 'instadham-yatra-apk'
+    }
 
 ];
 

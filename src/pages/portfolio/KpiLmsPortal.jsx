@@ -24,6 +24,7 @@ const KpiLmsPortal = () => {
       tags={["Laravel", "MySQL", "LMS", "Employee Training", "KPI Tracking", "Role-based Access", "Analytics", "User Experience", "Responsive Design", "Security", "Scalability", "Custom Reporting", "Progress Tracking", "Training Management", "Employee Engagement", "User-friendly Interface", "Exportable Reports", "Secure Access Control", "Role-based Permissions", "Employee Performance", "Learning Management System", "KPI Tracking", "Employee Training"]}
       gallery={gallery}
       bgColor="#e8f7ff"
+      link="https://hr.monisaenterprise.com/"
     >
       <section className="space-y-10">
         <div>

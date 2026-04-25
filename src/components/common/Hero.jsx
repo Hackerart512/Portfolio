@@ -49,7 +49,7 @@ const Hero = () => {
                                         </div>
                                     </a>
 
-                                    <Link to="/" className="text-black bg-[trabsparent]  inline-block rounded-md px-3 py-2 px-lg-4 py-lg-3 contact-link mt-2 ml-3 border-1 border-black">
+                                    <Link to="/portfolios" className="text-black bg-[trabsparent]  inline-block rounded-md px-3 py-2 px-lg-4 py-lg-3 contact-link mt-2 ml-3 border-1 border-black">
                                         <div className="font-bold flex items-center  rounded-sm ">
                                             My Work
                                             <span className="animate-arrow-up pl-2">

@@ -26,7 +26,7 @@ const PortfolioGridPage = () => {
                                 className="group rounded-[28px] border border-[#f1e4d8] bg-[#f9fafc] p-3 text-left transition hover:border-[#ff9330] hover:bg-[#fff8ec]"
                             >
                                 <img style={{ aspectRatio: " 1 / 1" }} class="rounded-2xl border-1 border-[#c7c7c7]" src={card.image} alt={card.title} />
-                                <span class="mt-4 d-block w-100 text-center gap-2 text-sm font-medium text-light bg-dark rounded-xl py-2">View details
+                                <span class="mt-3 d-block w-100 text-center gap-2 text-sm font-medium text-light bg-dark rounded-xl py-2">View details
                                     <span class="text-[#ff9330] ml-2">→</span>
                                 </span>
                             </Link>

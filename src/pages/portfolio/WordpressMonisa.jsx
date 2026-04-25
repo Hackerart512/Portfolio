@@ -7,9 +7,10 @@ const WordpressMonisa = () => {
       title="WordPress Monisa"
       subtitle="A polished WordPress website for Monisa’s brand identity, content storytelling, and service promotion."
       description="This web project showcases a fully responsive WordPress build with clean layout, content-driven pages, and visual branding."
-      heroImage="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+      heroImage="/images/Monisa wordpress/home page.png"
       tags={["WordPress", "Web Design", "Branding"]}
       bgColor="#f7f2ff"
+      link="https://monisaenterprise.com/"
     >
       <section className="space-y-10">
         <div>

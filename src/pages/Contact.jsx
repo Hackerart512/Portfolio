@@ -170,6 +170,9 @@ const Contact = () => {
                                 </button>
                             </form>
                         </div>
+                        <div className="col-lg-6">
+                            <img src="" alt="" />
+                        </div>
                     </div>
                 </div>
             </section>

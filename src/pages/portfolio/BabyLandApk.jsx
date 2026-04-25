@@ -8,7 +8,7 @@ const BabyLandApk = () => {
       title="Baby Land APK"
       subtitle="AI-Based Pregnancy & Baby Growth Tracking Platform"
       description="A comprehensive health-tech platform designed forpre-pregnancy, pregnancy, post-pregnancy, and baby growth tracking. This system uses AI-powered predictions to provide personalized insights related to health, nutrition, exercise, and baby development. The platform offers an interactive dashboard with visual analytics and intelligent recommendations."
-      heroImage="/images/Babyland-AI Health app/thumbnail/photo.png"
+      heroImage="/images/Babyland-AI Health app/thumbnail/photo.avif"
       tags={["Mobile App","Flutter", "Node.js", "MongoDB", "Firebase", "Twilio", "SendGrid", "Razorpay", "Video Calling", "React.js", "Admin Panel", "Subscription Model", "Predictive Analytics", "Community Support", "User Engagement", "Data Visualization", "Personalized Recommendations", "Pregnancy Tracker", "Baby Growth Tracker", "Menstrual Cycle Tracker", "Pre-Pregnancy Tracker", "Post-Pregnancy Tracker", "Doctor Consultation", "Health Insights", "Milestone Tracking", "Vaccination Reminders", "Task Scheduling", "Appointment Alerts", "AI Chatbot",  "AI-Powered Predictions", "Visual Analytics", "Intelligent Recommendations", "Health Monitoring","Subscription Model", "Doctor Consultation", "Community Support"]}
       bgColor="#fff0f6"
         gallery={babylandGallery}

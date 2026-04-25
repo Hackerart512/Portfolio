@@ -10,6 +10,7 @@ const ProptalkHotelBookingWebsite = () => {
       heroImage="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
       tags={["Web", "Booking", "Hospitality"]}
       bgColor="#fff8eb"
+      link="https://proptalk.in/"
     >
       <section className="space-y-10">
         <div>

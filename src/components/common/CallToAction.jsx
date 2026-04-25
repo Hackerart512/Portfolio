@@ -15,7 +15,7 @@ const CallToAction = () => {
                             </p>
                         </div>
                         <div>
-                            <a href="tel:8302088852" className="inline-flex items-center justify-center rounded-full bg-black px-8 py-4 text-sm font-semibold text-white transition hover:bg-[#333333] float-right">
+                            <a href="tel:8302088852" className="inline-flex items-center justify-center rounded-full bg-black px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#333333] float-right">
                                 Book a call
                             </a>
                         </div>
