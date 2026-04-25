@@ -7,7 +7,8 @@ import Hero from '../../components/common/Hero'
 import Footer from '../../components/common/Footer'
 import PortfolioSlider from '../../components/portfolio/PortfolioSlider'
 import Clients from '../../components/common/Clients'
-
+import { Link } from 'react-router-dom';
+import { WhatsApp } from '@mui/icons-material';
 import { Helmet } from 'react-helmet-async'
 const Home = () => {
 
@@ -26,9 +27,22 @@ const Home = () => {
             <Bio />
             <Resume />
             <Clients />
-            <PortfolioSlider/>
+            <PortfolioSlider />
 
             <Footer />
+            {/* <div className="whatsapp-widget fixed right-3 bottom-[90px]">
+                <Link to="https://wa.me/918302088852?text=Hello%20Pavan" target="_blank"
+                    rel="noopener noreferrer">
+                    <WhatsApp sx={{
+                        backgroundColor: "#1db51d",
+                        color: "white",
+                        borderRadius: "50%",
+                        padding: "6px",
+                        fontSize: "30px",
+                        cursor: "pointer"
+                    }} />
+                </Link>
+            </div> */}
         </>
     )
 }

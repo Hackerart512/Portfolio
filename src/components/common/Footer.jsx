@@ -1,5 +1,6 @@
-import React from 'react'
 import { Link } from 'react-router-dom';
+import React from 'react'
+
 
 const footer = () => {
     return (
@@ -41,7 +42,7 @@ const footer = () => {
                                         </li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
                                             <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/services">
-                                            Services
+                                                Services
                                             </Link>
                                         </li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
@@ -94,6 +95,9 @@ const footer = () => {
                 </div>
 
             </footer>
+
+
+            
         </>
     )
 }

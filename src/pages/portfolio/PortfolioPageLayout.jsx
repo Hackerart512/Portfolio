@@ -103,21 +103,24 @@ const PortfolioPageLayout = ({
             </div>
           )}
 
+          {
+            gallery.length > visibleCount && (
 
-          <div className="button-groups w-100 text-center mt-4">
-            <button
-              onClick={() => setVisibleCount(prev => prev + 8)}
-              className="load-more-gallery border border-dark px-3 py-2 rounded-md"
-            >
-              Load More
-            </button>
-          </div>
+              <div className="button-groups w-100 text-center mt-4">
+                <button
+                  onClick={() => setVisibleCount(prev => prev + 8)}
+                  className="load-more-gallery border border-dark px-3 py-2 rounded-md"
+                >
+                  Load More
+                </button>
+              </div>
+            )
+          }
 
         </div>
       </section>
 
       <CallToAction />
-
       <Footer />
     </>
   );
