@@ -8,6 +8,8 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 // Components
 import SmoothScroll from "./components/common/SmoothScroll";
 import Cursor from "./components/common/Cursor";
+import WhatsAppWidget from "./components/common/WhatsAppWidget";
+
 
 // Pages
 import Home from "./pages/home/Home";
@@ -83,6 +85,8 @@ function App() {
     <>
       {/* Custom cursor */}
       <Cursor />
+      <WhatsAppWidget />
+
 
       {/* Smooth scroll wrapper */}
       <SmoothScroll smooth={0.08}>
