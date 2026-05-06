@@ -1,10 +1,12 @@
-import { GitHub, Instagram, LinkedIn, WhatsApp } from '@mui/icons-material';
+import { GitHub, Instagram, LinkedIn, WhatsApp, Telegram } from '@mui/icons-material';
 import React, { useEffect } from "react";
 import { Link } from 'react-router-dom'
-
+import { useSelector } from 'react-redux';
 import { animateSplitText } from "../../utils/animateSplitText";
 
 const Hero = () => {
+
+    const { fullName, firstName, lastName, experience, contactNumber, instagram, linkedin, github, telegram } = useSelector((state) => state.profile);
 
     useEffect(() => {
         // Animate all elements with class ".split-animate"
@@ -31,13 +33,13 @@ const Hero = () => {
                                 </span>
 
                                 <h1 className="split-animate hero-title font-Syne fw-bold position-relative mb-0  mt-3 md:mt-0" >
-                                    Pavan <br />Prajapat
+                                    {firstName} <br />{lastName}
                                 </h1>
 
                                 <p className="font-Syne fw-bold text-[15px] md:text-[20px] mt-3">Full Stack Developer | India-Based Professional</p>
 
                                 <div className="hero-button-group mt-2">
-                                    <a href="tel:8302088852" className="text-white bg-black inline-block rounded-md contact-link px-3 py-2 px-lg-4  py-lg-3">
+                                    <a href={`tel:${contactNumber}`} className="text-white bg-black inline-block rounded-md contact-link px-3 py-2 px-lg-4  py-lg-3">
                                         <div className="font-bold flex items-center">
                                             Let's Talk
                                             <span className="animate-arrow-up pl-2">
@@ -67,7 +69,7 @@ const Hero = () => {
 
                                     <div className='flex items-center'>
                                         <span className="client-couter font-Syne fw-bold text-[30px] ">
-                                            2+
+                                            {experience}
                                         </span>
 
                                         <span className="md:mx-3">Year of Experiance</span>
@@ -82,7 +84,7 @@ const Hero = () => {
                                     <div className="social-links">
                                         <ul className="mb-0 gap-3 d-flex flex-wrap align-items-center list-unstyled">
                                             <li>
-                                                <a href="https://www.instgram.com" className="text-dark">
+                                                <a href={instagram} className="text-dark">
                                                     <Instagram />
 
 
@@ -90,18 +92,18 @@ const Hero = () => {
                                             </li>
 
                                             <li>
-                                                <a href="https://www.linkedin.com/in/pavan-prajapat-77ba26226/" className="text-dark">
+                                                <a href={linkedin} className="text-dark">
                                                     <LinkedIn />
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://wa.me/918302088852?text=Hello%20pavan" className="text-dark">
-                                                    <WhatsApp />
+                                                <a href={telegram} className="text-dark">
+                                                    <Telegram />
                                                 </a>
                                             </li>
 
                                             <li>
-                                                <a href="https://github.com/Hackerart512" className="text-dark">
+                                                <a href={github} className="text-dark">
                                                     <GitHub />
                                                 </a>
                                             </li>

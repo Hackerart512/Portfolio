@@ -1,5 +1,11 @@
+import React from 'react'
+import { useSelector } from 'react-redux';
+
 
 const Bio = () => {
+
+        const { project, experience, client,  fullName } = useSelector((state) => state.profile);
+
     return (
         <>
             <section className='py-10'>
@@ -12,24 +18,24 @@ const Bio = () => {
                             <span className="font-Syne fw-bold text-[#ff9330]">Hello I'm</span>
 
                             <h3 className="font-Syne fw-bold position-relative mb-0 ">
-                                Pavan Prajapat, Full stack web developer
+                                {fullName}
                             </h3>
 
-                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hello, I'm Pavan Prajapat, a Full Stack Web Developer skilled in creating dynamic, user-friendly, and efficient web solutions. I specialize in responsive design, performance optimization, and scalable system integration to deliver exceptional user experiences.</p>
+                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hello, I'm {fullName}, a Full Stack Web Developer skilled in creating dynamic, user-friendly, and efficient web solutions. I specialize in responsive design, performance optimization, and scalable system integration to deliver exceptional user experiences.</p>
 
                             <div className="my-personal-content">
                                 <ul className='p-0 flex items-center gap-3 md:gap-4 flex-wrap mb-4 md:mb-0'>
                                     <li>
-                                        <span className="font-Syne fw-bold text-[30px]">08</span>
-                                        <p className='font-Poppins mb-0'>Award Winner</p>
+                                        <span className="font-Syne fw-bold text-[30px]">{project}</span>
+                                        <p className='font-Poppins mb-0'>Total Project</p>
                                     </li>
                                     <li>
-                                        <span className="font-Syne fw-bold text-[30px]">2</span>
+                                        <span className="font-Syne fw-bold text-[30px]">{experience}</span>
                                         <p className='font-Poppins mb-0'>Year Of Experiance</p>
                                     </li>
                                     <li>
-                                        <span className="font-Syne fw-bold text-[30px]">3.1</span>
-                                        <p className='font-Poppins mb-0'>Year Of Hand on Experiance</p>
+                                        <span className="font-Syne fw-bold text-[30px]">{client}</span>
+                                        <p className='font-Poppins mb-0'>Client</p>
                                     </li>
 
                                 </ul>

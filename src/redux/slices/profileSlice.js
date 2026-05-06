@@ -5,18 +5,19 @@ const initialState = {
   fullName: 'Pavan Prajapat',
   firstName: 'Pavan',
   lastName: 'Prajapat',
-  contactNumber: '918302088852',
+  contactNumber: '+91 83020 88852',
   email: 'pavanprajapat241@gmail.com',
   address: 'Pratap Nagar Apani Dhani road, Udaipur(Rajsthan)',
-  experience: '2+ Years',
+  experience: '2+',
+  client: 3,
+  project: '12+',
   nationality: 'Indian',
-  Language: ['Hindi', 'English', 'Marwadi'],
-  instagram: 'https://www.instagram.com/pavanprajapat241/',
-  linkedin: 'https://www.linkedin.com/in/pavan-prajapat-241/',
-  github: 'https://github.com/pavanprajapat241',
-  telegram: 'https://t.me/pavanprajapat241',
+  Language: ['Hindi', 'English'],
+  instagram: 'https://www.instagram.com/piyushprajapat29',
+  linkedin: 'https://www.linkedin.com/in/pavan-prajapat-77ba26226',
+  github: 'https://github.com/Hackerart512',
+  telegram: 'https://t.me/pavan_official_tech',
   Facebook: 'https://www.facebook.com/pavanprajapat241',
-
 };
 
 const profileSlice = createSlice({

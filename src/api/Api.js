@@ -28,7 +28,7 @@ const cards = [
         title: "Agnoz Doctor Patient Application",
         image: "/images/Agnoz C-R/thumbnail/agnoz_thumbnail.avif",
         desc: "A luxury apartment in the city center.",
-        tag: ['Node.js',  'MongoDB', 'Socket.io', 'Twilio', 'Agora', 'AI Prediction',  'WHO API', 'Astrology API'],
+        tag: ['Node.js', 'MongoDB', 'Socket.io', 'Twilio', 'Agora', 'AI Prediction', 'WHO API', 'Astrology API'],
         slug: 'agnoz-doctor-apk'
     },
     {
@@ -37,9 +37,9 @@ const cards = [
         image: "/images/Babyland-AI Health app/thumbnail/photo.avif",
         desc: "A luxury apartment in the city center.",
         slug: 'baby-land-apk',
-        tag: ['Node.js',   'MongoDB', 'Twilio', 'Agora',  'Razorpay Api', 'Ai Chat',   'Ai Tracker'],
+        tag: ['Node.js', 'MongoDB', 'Twilio', 'Agora', 'Razorpay Api', 'Ai Chat', 'Ai Tracker'],
     },
-   
+
     {
         id: 6,
         title: "Wordpress Monisa",
@@ -88,6 +88,13 @@ const cards = [
         image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'instadham-yatra-apk'
+    },
+    {
+        id: 13,
+        title: "Arbitrator",
+        image: "/images/thumnail_miss.webp",
+        desc: "Arbitrator platform",
+        slug: 'arbitrator'
     }
 
 ];

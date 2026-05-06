@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useSelector } from "react-redux";
 const CallToAction = () => {
+    const { phoneNumber } = useSelector((state) => state.profile);
     return (
         <section className="bg-[#ffe9d9] py-5 md:py-5">
             <div className="container mx-auto px-6">
@@ -15,7 +16,7 @@ const CallToAction = () => {
                             </p>
                         </div>
                         <div>
-                            <a href="tel:8302088852" className="inline-flex items-center justify-center rounded-full bg-black px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#333333] float-right">
+                            <a href={`tel:${phoneNumber}`} className="inline-flex items-center justify-center rounded-full bg-black px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#333333] float-right">
                                 Book a call
                             </a>
                         </div>

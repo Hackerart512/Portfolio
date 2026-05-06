@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-
+import { useSelector } from 'react-redux';
 
 const footer = () => {
+    const { experience, address , contactNumber, email } = useSelector((state) => state.profile);
     return (
         <>
             <footer className="bg-[#191e28] ">
@@ -14,7 +15,7 @@ const footer = () => {
                             </h3>
                             <div className="hero-network my-3 md:my-5 flex items-center text-white">
                                 <span className="client-couter font-Syne fw-bold text-[30px] ">
-                                    2+
+                                    {experience}
                                 </span>
                                 <span className="mx-3">Year of Experiance</span>
                                 <span className="mx-8">
@@ -66,14 +67,14 @@ const footer = () => {
                                     <h5 className='text-white uppercase mb-3 mt-2 md:mt-2 md:mb-5 pt-3'>Contact</h5>
                                     <ul className="m-0 p-0 text-[#adadad]">
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
-                                            Pratap Nagar Apani Dhani road, Udaipur(Rajsthan)
+                                            {address}
                                         </li>
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
-                                            pavanprajapat241@gmail.com
+                                            {email}
                                         </li>
 
                                         <li className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/" >
-                                            +91 8302088852
+                                            { contactNumber   }
                                         </li>
 
 

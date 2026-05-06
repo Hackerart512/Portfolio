@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 
+import { useSelector } from 'react-redux';
 const Resume = () => {
 
+    const { fullName, experience, Language, contactNumber, nationality, email } = useSelector((state) => state.profile);
     const [activeTab, setActiveTab] = useState('tab1');
 
     const handleTabClick = (tab) => {
@@ -85,7 +87,7 @@ const Resume = () => {
 
                                 <div>
                                     <h4 className="font-Syne fw-bold text-[23px]">About Me</h4>
-                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hi, I’m Pavan Prajapat, a passionate and driven Full Stack Web Developer. I specialize in creating dynamic and user-friendly web applications that deliver seamless user experiences. With expertise in both front-end and back-end technologies, I build efficient, scalable, and impactful solutions.</p>
+                                    <p className="text-[18px] mt-4 font-Syne text-[#08080899]">Hi, I’m {fullName}, a passionate and driven Full Stack Web Developer. I specialize in creating dynamic and user-friendly web applications that deliver seamless user experiences. With expertise in both front-end and back-end technologies, I build efficient, scalable, and impactful solutions.</p>
 
                                     <p className="text-[18px] mt-4 font-Syne text-[#08080899]">My goal is to combine my technical skills with creativity to turn ideas into reality, ensuring every project I work on is both functional and visually appealing. Let’s create something amazing together!</p>
 
@@ -93,31 +95,31 @@ const Resume = () => {
                                         <div className="d-flex items-center">
                                             <p className="text-[16px] md:text-[20px] mt-3 font-Poppins  md:w-[30%]">Name</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                Pavan Prajapat
+                                                {fullName}
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
                                             <p className="text-[16px] md:text-[20px] mt-3 font-Poppins  md:w-[30%]">Nationality</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                India
+                                                {nationality}
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
                                             <p className="text-[16px] md:text-[20px] mfont-Poppins   md:w-[30%]">Phone</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                               +91 8302088852
+                                                {contactNumber}
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
                                             <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Email </p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                pavanprajapat241@gmail.com
+                                                {email}
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
                                             <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Experience</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                2+
+                                                {experience}
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
@@ -131,7 +133,7 @@ const Resume = () => {
                                             <p className="text-[16px] md:text-[20px] font-Poppins   md:w-[30%]">Language
                                             </p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
-                                                English, Hindi
+                                                {Language.join(',')}
                                             </span>
                                         </div>
                                     </div>
