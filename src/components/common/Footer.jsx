@@ -52,11 +52,6 @@ const footer = () => {
                                             </Link>
                                         </li>
                                         <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
-                                            <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/blogs">
-                                                Blogs
-                                            </Link>
-                                        </li>
-                                        <li className='  mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer'>
                                             <Link className=" text-[#adadad] mb-2 font-Syne fw-bold hover:text-[#ff9330]  cursor-pointer" to="/portfolios">
                                                 Projects
                                             </Link>

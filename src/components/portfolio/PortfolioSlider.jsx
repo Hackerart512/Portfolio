@@ -30,6 +30,7 @@ const PortfolioSlider = () => {
                 spaceBetween={25}
                 slidesPerView={4}
                 navigation
+                loop={true}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
                 breakpoints={{
                     320: { slidesPerView: 1 },

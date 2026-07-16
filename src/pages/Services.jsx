@@ -59,7 +59,7 @@ const Services = () => {
               <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-[#eaf6ff] text-[#1a73e8] shadow-sm transition group-hover:bg-[#1a73e8] group-hover:text-white">
                 <TrendingUp fontSize="large" />
               </div>
-              <h3 className="mt-6 text-2xl font-semibold text-gray-900">Website SEO</h3>
+              <h3 className="mt-6 text-2xl font-semibold text-gray-900">Website Technical SEO</h3>
               <span className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[#444]">
                 View details
                 <span className="text-[#ff9330]">→</span>

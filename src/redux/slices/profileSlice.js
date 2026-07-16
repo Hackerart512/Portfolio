@@ -8,7 +8,7 @@ const initialState = {
   contactNumber: '+91 83020 88852',
   email: 'pavanprajapat241@gmail.com',
   address: 'Pratap Nagar Apani Dhani road, Udaipur(Rajsthan)',
-  experience: '2+',
+  experience: '3+',
   client: 3,
   project: '12+',
   nationality: 'Indian',

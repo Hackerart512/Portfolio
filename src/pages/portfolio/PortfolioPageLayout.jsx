@@ -50,7 +50,7 @@ const PortfolioPageLayout = ({
       </section>
 
       <section className="px-6 py-10">
-        <div className="container-fluid">
+        <div className="container">
           <div className="grid gap-8 lg:grid-cols-2 items-center mb-14">
             <div>
               <span className="font-Syne fw-bold text-[#ff9330] text-sm uppercase tracking-[0.25em]">

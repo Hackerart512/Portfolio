@@ -120,7 +120,7 @@ const Navbar = (props) => {
                                         </span>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to="/blogs">
                                         Blog
                                         <span className="animate-arrow-up pl-2">
@@ -130,7 +130,7 @@ const Navbar = (props) => {
                                             </svg>
                                         </span>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li >
                                     <Link className='py-2 mb-1 d-flex justify-between font-Syne text-[20px] fw-bold' to="/contact">
                                         Contact

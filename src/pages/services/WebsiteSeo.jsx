@@ -4,7 +4,7 @@ import ServicePageLayout from "./ServicePageLayout";
 const WebsiteSeo = () => {
   return (
     <ServicePageLayout
-      title="Website SEO"
+      title="Website Technical SEO"
       subtitle="Search-ready websites that attract traffic and improve visibility online."
       description="I build SEO-aware pages with optimized structure, fast load times, and content that search engines can easily understand."
       bullets={[

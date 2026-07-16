@@ -95,6 +95,13 @@ const cards = [
         image: "/images/thumnail_miss.webp",
         desc: "Arbitrator platform",
         slug: 'arbitrator'
+    },
+      {
+        id: 14,
+        title: "Thavira Landing Page",
+        image: "/images/thavira/thavira_thumb.png",
+        desc: "Thavira Landing Page",
+        slug: 'thavira-lp'
     }
 
 ];
