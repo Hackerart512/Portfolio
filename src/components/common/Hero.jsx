@@ -9,7 +9,6 @@ const Hero = () => {
     const { fullName, firstName, lastName, experience, contactNumber, instagram, linkedin, github, telegram } = useSelector((state) => state.profile);
 
     useEffect(() => {
-        // Animate all elements with class ".split-animate"
         animateSplitText(".split-animate");
     }, []);
 

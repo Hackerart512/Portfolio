@@ -408,3 +408,63 @@ h3.mediam-heading {
   }
 }
 
+
+h1.hero-title{
+    font-size: 85px;
+}
+
+
+
+.codrops_mwg {
+  height: 100dvh;
+  overflow: hidden;
+  position: relative;
+}
+
+.codrops_mwg .content-effect {
+  font-size: min(60px, 5.6vw);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  letter-spacing: -0.03em;
+
+  span {
+    display: block;
+    width: max-content;
+  }
+
+  span:last-child {
+    color: #999;
+  }
+}
+
+.codrops_mwg img {
+  width: 15vw;
+  height: 15vw;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 4%;
+  z-index: 5;
+}
+
+.codrops_mwg .medias img {
+  width: 1px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .codrops_mwg img {
+    width: 35vw;
+    height: 35vw;
+  }
+}

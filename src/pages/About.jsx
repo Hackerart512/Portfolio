@@ -82,7 +82,7 @@ const About = () => {
                                         <span className="font-Syne font-bold text-[#ff9330]">Say Hello!</span>
                                         <div className="font-Syne font-bold relative mb-0 text-white text-[16px] md:text-[1.5rem]">
 
-                                            <p className="font-Poppins mb-0"><a className="text-white" href="mailto:Vickyprajapat@gmail.com">{email}</a></p>
+                                            <p className="font-Poppins mb-0"><a className="text-white" href="mailto:pavanprajapat241@gmail.com">{email}</a></p>
                                         </div>
                                     </div>
                                 </div>

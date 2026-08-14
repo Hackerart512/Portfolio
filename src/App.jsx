@@ -36,6 +36,7 @@ import WordpressMonisa from "./pages/portfolio/WordpressMonisa";
 import NarutoCrm from "./pages/portfolio/NarutoCrm";
 import VideoEditReel from "./pages/portfolio/VideoEditReel";
 import ElmondLmsPortal from "./pages/portfolio/ElmondLmsPortal";
+import ThaviraLp from "./pages/portfolio/ThaviraLp";
 import Blog1 from "./pages/blogs/Blog1"; 
 
 // React Router
@@ -71,6 +72,7 @@ function App() {
     { path: "/portfolio/naruto-crm", element: <NarutoCrm /> },
     { path: "/portfolio/video-edit-reel", element: <VideoEditReel /> },
     { path: "/portfolio/elmond-lms-portal", element: <ElmondLmsPortal /> },
+    { path: "/portfolio/thavira-lp", element: <ThaviraLp /> },
   ];
 
   // Create router with future flags
