@@ -7,33 +7,21 @@ const Service = () => {
             <section className="services pt-10 md:pb-10">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
-                            <span className="font-Syne fw-bold text-[#ff9330]">Service</span>
+                        <div className="col-lg-12">
+                            <div className="flex align-items-center flex-column">
 
-                            <h3 className="font-Syne fw-bold position-relative mb-0 ">
-                                My specialties
-                            </h3>
+                                <span className="font-Syne fw-bold text-[#ff9330]">Service</span>
 
-                            <p className="text-[18px] mt-4 font-Syne text-[#08080899]">As a Full Stack Developer, I specialize in crafting responsive and dynamic web applications with expertise in React.js, Node.js, and Laravel. I build scalable backends, integrate APIs, and optimize website performance for seamless user experiences. With a strong focus on e-commerce development, cloud deployment, and modern DevOps practices, I ensure high-quality solutions tailored to client needs.</p>
-
-                            <Link to="/services" className="mt-1 text-white bg-black inline-block rounded-md contact-link px-3 py-2 px-lg-4  py-lg-3">
-                                <div className="font-bold flex items-center">
-                                    View All
-                                    <span className="animate-arrow-up pl-2">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M7 17L17 7" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                                            <path d="M7 7H17V17" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
-                                        </svg>
-                                    </span>
-                                </div>
-                            </Link>
-
+                                <h3 className="font-Syne fw-bold position-relative mb-0 ">
+                                    My specialties
+                                </h3>
+                            </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-12">
                             <div className="row mt-4">
                                 <div className="col-lg-12">
                                     <div className="row">
-                                        <div className="col-6">
+                                        <div className="col-3">
                                             <Link to="/services/website-seo">
                                                 <div className="services-cart bg-[#0808080a] rounded-md md:p-4 p-3 mb-3">
 
@@ -54,7 +42,7 @@ const Service = () => {
                                                 </div>
                                             </Link>
                                         </div>
-                                        <div className=" col-6">
+                                        <div className=" col-3">
                                             <Link to="/services/lead-generation">
                                                 <div className="services-cart bg-[#0808080a] rounded-md md:p-4 p-3 mb-3">
 
@@ -75,7 +63,7 @@ const Service = () => {
                                                 </div>
                                             </Link>
                                         </div>
-                                        <div className="col-6">
+                                        <div className="col-3">
                                             <Link to="/services/web-development">
                                                 <div className="services-cart bg-[#0808080a] rounded-md md:p-4 p-3 mb-4">
 
@@ -96,7 +84,7 @@ const Service = () => {
                                                 </div>
                                             </Link>
                                         </div>
-                                        <div className="col-6" >
+                                        <div className="col-3" >
                                             <Link to="/services/interaction-design">
 
 
