@@ -28,14 +28,14 @@ const PortfolioSlider = () => {
             <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 spaceBetween={25}
-                slidesPerView={4}
+                slidesPerView={3}
                 navigation
                 loop={true}
                 autoplay={{ delay: 2500, disableOnInteraction: false }}
                 breakpoints={{
                     320: { slidesPerView: 1 },
                     640: { slidesPerView: 2 },
-                    1024: { slidesPerView: 4 },
+                    1024: { slidesPerView: 3 },
                 }}
                 className="pb-12"
             >
@@ -46,11 +46,11 @@ const PortfolioSlider = () => {
                                 <img style={{
                                     border: "1px solid #d7d7d7",
                                     borderRadius: "11px",
-                                    aspectRatio: "1/1"
+                                    aspectRatio: "16/9"
                                 }}
                                     src={card.image}
                                     alt={card.title}
-                                    className=" w-full object-cover"
+                                    className=" w-full object-contain"
                                 />
                             </div>
 

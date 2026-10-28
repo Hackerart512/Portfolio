@@ -102,6 +102,13 @@ const cards = [
         image: "/images/thavira/thavira_thumb.png",
         desc: "Thavira Landing Page",
         slug: 'thavira-lp'
+    },
+      {
+        id: 15,
+        title: "Shopzy Ecommerce Platform",
+          image: "/images/shopzy/Shopzy-thumb.png",
+          desc: "Shopzy Ecommerce Platform",
+        slug: 'shopzy-ecommerce-lp'
     }
 
 ];

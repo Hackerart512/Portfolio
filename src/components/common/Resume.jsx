@@ -93,13 +93,13 @@ const Resume = () => {
 
                                     <div className="resune-bio">
                                         <div className="d-flex items-center">
-                                            <p className="text-[16px] md:text-[20px] mt-3 font-Poppins  md:w-[30%]">Name</p>
+                                            <p className="text-[16px] md:text-[20px font-Poppins  md:w-[30%]">Name</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 {fullName}
                                             </span>
                                         </div>
                                         <div className="d-flex items-center">
-                                            <p className="text-[16px] md:text-[20px] mt-3 font-Poppins  md:w-[30%]">Nationality</p>
+                                            <p className="text-[16px] md:text-[20px] font-Poppins  md:w-[30%]">Nationality</p>
                                             <span className="font-Syne fw-bold text-[16px] md:text-[20px]">
                                                 {nationality}
                                             </span>
