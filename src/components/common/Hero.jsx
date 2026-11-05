@@ -1,21 +1,38 @@
 import { GitHub, Instagram, LinkedIn, WhatsApp, Telegram } from '@mui/icons-material';
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import { animateSplitText } from "../../utils/animateSplitText";
 
 const Hero = () => {
 
-    const { fullName, firstName, lastName, experience, contactNumber, instagram, linkedin, github, telegram } = useSelector((state) => state.profile);
+    const { firstName, lastName, experience, contactNumber, instagram, linkedin, github, telegram } = useSelector((state) => state.profile);
+    const heroRef = useRef(null);
 
     useEffect(() => {
         animateSplitText(".split-animate");
+
+        const updatePosition = () => {
+            if (!heroRef.current) return;
+            const rect = heroRef.current.getBoundingClientRect();
+            const progress = Math.max(-0.5, Math.min(1, -rect.top / Math.max(rect.height, 1)));
+            heroRef.current.style.setProperty('--hero-scroll-y', `${progress * 55}px`);
+            heroRef.current.style.setProperty('--hero-scroll-x', `${progress * 24}px`);
+        };
+
+        updatePosition();
+        window.addEventListener('scroll', updatePosition, { passive: true });
+        return () => window.removeEventListener('scroll', updatePosition);
     }, []);
 
     return (
         <>
-            <section className="hero-section bg-[#ffe9d9]">
-                <div className="container">
+            <section ref={heroRef} className="hero-section relative overflow-hidden bg-[#fff4eb]">
+                <div className="hero-grid-lines absolute inset-0 pointer-events-none" aria-hidden="true" />
+                <span className="hero-orb hero-orb-one absolute rounded-full" aria-hidden="true" />
+                <span className="hero-orb hero-orb-two absolute rounded-full" aria-hidden="true" />
+                <span className="hero-outline-circle absolute rounded-full" aria-hidden="true" />
+                <div className="container relative z-[2]">
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="py-3 py-lg-5">
@@ -38,9 +55,9 @@ const Hero = () => {
                                 <p className="font-Syne fw-bold text-[15px] md:text-[20px] mt-3">Full Stack Developer | India-Based Professional</p>
 
                                 <div className="hero-button-group mt-2">
-                                    <a href={`tel:${contactNumber}`} className="text-white bg-black inline-block rounded-md contact-link px-3 py-2 px-lg-4  py-lg-3">
+                                    <a href={`tel:${contactNumber}`} className="text-white bg-black inline-block rounded-3xl contact-link px-3 py-2 px-lg-4 py-lg-3">
                                         <div className="font-bold flex items-center">
-                                            Let's Talk
+                                            Hire Me
                                             <span className="animate-arrow-up pl-2">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M7 17L17 7" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -50,9 +67,9 @@ const Hero = () => {
                                         </div>
                                     </a>
 
-                                    <Link to="/portfolios" className="text-black bg-[trabsparent]  inline-block rounded-md px-3 py-2 px-lg-4 py-lg-3 contact-link mt-2 ml-3 border-1 border-black">
+                                    <Link to="/it-services" className="text-black bg-transparent inline-block rounded-3xl px-3 py-2 px-lg-4 py-lg-3 contact-link mt-2 ml-3 border border-black">
                                         <div className="font-bold flex items-center  rounded-sm ">
-                                            My Work
+                                            Work With Us
                                             <span className="animate-arrow-up pl-2">
                                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M7 17L17 7" stroke="currentColor" strokeOpacity="0.9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -115,7 +132,7 @@ const Hero = () => {
                         </div>
 
                         <div className="col-lg-6">
-                            <img style={{ aspectRatio: "1/1", objectFit: "contain" }} src="/images/profile/profile-boy.png" className="h-100 w-100" alt="" title="" decoding="async" />
+                            <img style={{ aspectRatio: "1/1", objectFit: "contain" }} src="/images/profile/profile-boy.png" className="hero-profile h-100 w-100" alt={`${firstName} ${lastName}`} title={`${firstName} ${lastName}`} decoding="async" />
                         </div>
                     </div>
                 </div>

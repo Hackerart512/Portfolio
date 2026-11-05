@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/common/Navbar";
 import Footer from "../components/common/Footer";
 import Service from "../components/common/Service";
-import { Code, TrendingUp, TouchApp, Bolt } from '@mui/icons-material';
+import { Code, TrendingUp, TouchApp, Bolt, Computer } from '@mui/icons-material';
 import { Helmet } from "react-helmet-async";
 
 const Services = () => {
@@ -37,7 +37,7 @@ const Services = () => {
 
       <section className="bg-white py-16 md:py-5">
         <div className="container mx-auto px-6">
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             <Link
               to="/services/web-development"
               className="group rounded-[28px] border border-[#f1e4d8] bg-[#f9fafc] p-8 text-left transition hover:border-[#ff9330] hover:bg-[#fff8ec]"
@@ -90,6 +90,20 @@ const Services = () => {
               <h3 className="mt-6 text-2xl font-semibold text-gray-900">Lead Generation</h3>
               <span className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[#444]">
                 View details
+                <span className="text-[#ff9330]">→</span>
+              </span>
+            </Link>
+
+            <Link
+              to="/services/it-services"
+              className="group rounded-[28px] border border-[#f1e4d8] bg-[#111827] p-8 text-left text-white transition hover:border-[#ff9330]"
+            >
+              <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-[#ff9330] text-[#111827] shadow-sm transition group-hover:bg-white">
+                <Computer fontSize="large" />
+              </div>
+              <h3 className="mt-6 text-2xl font-semibold text-white">IT Services</h3>
+              <span className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[#cbd2df]">
+                View portfolio
                 <span className="text-[#ff9330]">→</span>
               </span>
             </Link>

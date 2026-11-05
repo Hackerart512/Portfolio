@@ -25,7 +25,7 @@ const Home = () => {
                 <meta name="description" content="" />
             </Helmet>
 
-            <Navbar bg_color="#ffe9d9" />
+            <Navbar bg_color="#fff4eb" />
             <Hero />
             <Service />
             <Bio />

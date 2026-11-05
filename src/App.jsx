@@ -23,6 +23,7 @@ import WebDevelopment from "./pages/services/WebDevelopment";
 import WebsiteSeo from "./pages/services/WebsiteSeo";
 import InteractionDesign from "./pages/services/InteractionDesign";
 import LeadGeneration from "./pages/services/LeadGeneration";
+import ItServices from "./pages/services/ItServices";
 import Portfolio from "./pages/Portfolio";
 import MonisaERP from "./pages/portfolio/MonisaErpPortal";
 import KpiLmsPortal from "./pages/portfolio/KpiLmsPortal";
@@ -52,6 +53,8 @@ function App() {
     { path: "/services/website-seo", element: <WebsiteSeo /> },
     { path: "/services/interaction-design", element: <InteractionDesign /> },
     { path: "/services/lead-generation", element: <LeadGeneration /> },
+    { path: "/services/it-services", element: <ItServices /> },
+    { path: "/it-services", element: <ItServices /> },
     { path: "/demo", element: <Demo /> },
     { path: "/contact", element: <Contact /> },
     { path: "/blogs", element: <Blog /> },
