@@ -18,7 +18,7 @@ const Service = () => {
             {item.popular && <span className="absolute -right-[1px] -top-[13px] flex items-center gap-1 rounded-full bg-[#ff9330] px-3 py-1 text-[10px] font-bold text-white"><i className="fa-solid fa-star text-[8px]" />Popular</span>}
             <span className="grid h-[52px] w-[52px] flex-none place-items-center rounded-[16px] bg-[#fff3e5] text-[#171a24] transition-colors group-hover:bg-[#ff9330] group-hover:text-white"><i className={`${item.icon} text-xl`} /></span>
             <span className="min-w-0 pr-3">
-                <span className="font-Syne mb-1 block text-[13px] font-bold leading-[1.25] md:text-sm">{item.title}</span>
+                <span className="font-Syne mb-1 block font-bold leading-[1.25] md:text-md">{item.title}</span>
                 <span className="block text-[11px] leading-[1.45] text-[#777e8d] md:text-xs">{item.description}</span>
             </span>
             <span className="ml-auto grid h-9 w-9 flex-none place-items-center rounded-full bg-[#f4f5f7] text-[#171a24] transition-all group-hover:translate-x-1 group-hover:bg-[#171a24] group-hover:text-white"><i className="fa-solid fa-arrow-right text-xs" /></span>

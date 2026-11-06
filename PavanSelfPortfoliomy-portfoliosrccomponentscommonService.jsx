@@ -24,8 +24,8 @@ const Service = () => {
                 <i className={`${item.icon} text-xl`} aria-hidden="true" />
             </span>
             <span className="min-w-0 pr-3">
-                <span className="font-Syne mb-1 block text-[13px] font-bold leading-[1.25] md:text-sm">{item.title}</span>
-                <span className="block text-[11px] leading-[1.45] text-[#777e8d] md:text-xs">{item.description}</span>
+                <span className="font-Syne mb-1 block   font-bold leading-[1.25] md:text-md">{item.title}</span>
+                <span className="block text-[11px] leading-[1.45] text-[#777e8d] md:text-sm">{item.description}</span>
             </span>
             <span className="ml-auto grid h-9 w-9 flex-none place-items-center rounded-full bg-[#f4f5f7] text-[#171a24] transition-all group-hover:translate-x-1 group-hover:bg-[#171a24] group-hover:text-white">
                 <i className="fa-solid fa-arrow-right text-xs" aria-hidden="true" />
