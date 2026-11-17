@@ -31,10 +31,10 @@ import DoctogonDoctorPatientApp from "./pages/portfolio/DoctogonDoctorPatientApp
 import AgnozDoctorApk from "./pages/portfolio/AgnozDoctorApk";
 import BabyLandApk from "./pages/portfolio/BabyLandApk";
 import SwiftGoBackend from "./pages/portfolio/SwiftGoBackend";
-import ProptalkHotelBookingWebsite from "./pages/portfolio/ProptalkHotelBookingWebsite";
+import ProptalkRealEstateBookingWebsite from "./pages/portfolio/ProptalkRealEstateBookingWebsite";
 import InstadhamYatraApk from "./pages/portfolio/InstadhamYatraApk";
 import WordpressMonisa from "./pages/portfolio/WordpressMonisa";
-import NarutoCrm from "./pages/portfolio/NarutoCrm";
+import NuvestoCrm from "./pages/portfolio/NuvestoCrm";
 import VideoEditReel from "./pages/portfolio/VideoEditReel";
 import ElmondLmsPortal from "./pages/portfolio/ElmondLmsPortal";
 import ThaviraLp from "./pages/portfolio/ThaviraLp";
@@ -69,10 +69,10 @@ function App() {
     { path: "/portfolio/agnoz-doctor-apk", element: <AgnozDoctorApk /> },
     { path: "/portfolio/baby-land-apk", element: <BabyLandApk /> },
     { path: "/portfolio/swiftgo-backend", element: <SwiftGoBackend /> },
-    { path: "/portfolio/proptalk-hotel-booking-website", element: <ProptalkHotelBookingWebsite /> },
+    { path: "/portfolio/proptalk-real-estate-booking-website", element: <ProptalkRealEstateBookingWebsite /> },
     { path: "/portfolio/instadham-yatra-apk", element: <InstadhamYatraApk /> },
     { path: "/portfolio/wordpress-monisa", element: <WordpressMonisa /> },
-    { path: "/portfolio/naruto-crm", element: <NarutoCrm /> },
+    { path: "/portfolio/nuvesto-crm", element: <NuvestoCrm /> },
     { path: "/portfolio/video-edit-reel", element: <VideoEditReel /> },
     { path: "/portfolio/elmond-lms-portal", element: <ElmondLmsPortal /> },
     { path: "/portfolio/thavira-lp", element: <ThaviraLp /> },

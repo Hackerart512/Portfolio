@@ -17,7 +17,6 @@ export const elmondGallery = [
     "/images/Elmond/avif/16.avif",
     "/images/Elmond/avif/17.avif",
     "/images/Elmond/avif/18.avif",
-    "/images/Elmond/avif/19.avif",
     "/images/Elmond/avif/20.avif",
     "/images/Elmond/avif/21.avif",
     "/images/Elmond/avif/22.avif",

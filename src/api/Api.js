@@ -49,62 +49,57 @@ const cards = [
     },
     {
         id: 7,
-        title: "Naruto CRM",
-        image: "/images/thumnail_miss.webp",
-        desc: "A luxury apartment in the city center.",
-        slug: 'naruto-crm'
+        title: "Nuvesto CRM",
+        image: "/images/nuvesto/thumbnail/photo.png",
+        desc: "Company CRM system",
+        slug: 'nuvesto-crm',
+        tag: ['React.js', 'Node.js'],
+
     },
     {
-        id: 8,
-        title: "Video Edit reel",
-        image: "/images/thumnail_miss.webp",
-        desc: "A luxury apartment in the city center.",
-        slug: 'video-edit-reel'
-    },
-    {
-        id: 9,
+        id:8,
         title: "Elmond LMS Portal",
         image: "/images/Elmond/thumbnail/thumb.avif",
         desc: "LMS Portal",
         slug: 'elmond-lms-portal'
     },
     {
-        id: 10,
+        id: 9,
         title: "SwiftGo backend",
         image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'swiftgo-backend'
     },
     {
-        id: 11,
-        title: "Proptalk hotel booking website",
-        image: "/images/thumnail_miss.webp",
+        id: 10,
+        title: "Proptalk Real Estate booking website",
+        image: "/images/proptalk/photo.png",
         desc: "A luxury apartment in the city center.",
-        slug: 'proptalk-hotel-booking-website'
+        slug: 'proptalk-real-estate-booking-website'
     },
     {
-        id: 12,
+        id: 11,
         title: "Instadham yatra apk",
         image: "/images/thumnail_miss.webp",
         desc: "A luxury apartment in the city center.",
         slug: 'instadham-yatra-apk'
     },
     {
-        id: 13,
+        id: 12,
         title: "Arbitrator",
         image: "/images/thumnail_miss.webp",
         desc: "Arbitrator platform",
         slug: 'arbitrator'
     },
       {
-        id: 14,
+        id: 13,
         title: "Thavira Landing Page",
         image: "/images/thavira/thavira_thumb.png",
         desc: "Thavira Landing Page",
         slug: 'thavira-lp'
     },
       {
-        id: 15,
+        id: 14,
         title: "Shopzy Ecommerce Platform",
           image: "/images/shopzy/Shopzy-thumb.png",
           desc: "Shopzy Ecommerce Platform",
