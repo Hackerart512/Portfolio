@@ -72,7 +72,7 @@ const cards = [
     },
     {
         id: 10,
-        title: "Proptalk Real Estate booking website",
+        title: "Proptalk Real Estate Rent Sale website",
         image: "/images/proptalk/photo.png",
         desc: "A luxury apartment in the city center.",
         slug: 'proptalk-real-estate-booking-website'
@@ -87,9 +87,9 @@ const cards = [
     {
         id: 12,
         title: "Arbitrator",
-        image: "/images/thumnail_miss.webp",
+        image: "/images/Enyaysetu/photo.png",
         desc: "Arbitrator platform",
-        slug: 'arbitrator'
+        slug: 'enyaysetu-arbitrator'
     },
       {
         id: 13,

@@ -37,6 +37,7 @@ import WordpressMonisa from "./pages/portfolio/WordpressMonisa";
 import NuvestoCrm from "./pages/portfolio/NuvestoCrm";
 import VideoEditReel from "./pages/portfolio/VideoEditReel";
 import ElmondLmsPortal from "./pages/portfolio/ElmondLmsPortal";
+import Arbitrator from "./pages/portfolio/Arbitrator";
 import ThaviraLp from "./pages/portfolio/ThaviraLp";
 import Blog1 from "./pages/blogs/Blog1"; 
 
@@ -76,6 +77,7 @@ function App() {
     { path: "/portfolio/video-edit-reel", element: <VideoEditReel /> },
     { path: "/portfolio/elmond-lms-portal", element: <ElmondLmsPortal /> },
     { path: "/portfolio/thavira-lp", element: <ThaviraLp /> },
+    { path: "/portfolio/enyaysetu-arbitrator", element: <Arbitrator /> },
   ];
 
   // Create router with future flags
